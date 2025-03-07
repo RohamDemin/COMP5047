@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style">
+  <notation:Diagram xmi:id="_jbXiMPtEEe-frPLmCFbQhg" type="PapyrusUMLActivityDiagram" name="Activity Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_jbXiMftEEe-frPLmCFbQhg" type="Activity_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_jbXiMvtEEe-frPLmCFbQhg" type="Activity_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_jbXiM_tEEe-frPLmCFbQhg" type="Activity_KeywordLabel"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_jbXiNPtEEe-frPLmCFbQhg" type="Activity_ParameterCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_jbXiNftEEe-frPLmCFbQhg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_jbXiNvtEEe-frPLmCFbQhg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jbXiN_tEEe-frPLmCFbQhg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_jbXiOPtEEe-frPLmCFbQhg" type="Activity_PreconditionCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_jbXiOftEEe-frPLmCFbQhg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_jbXiOvtEEe-frPLmCFbQhg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jbXiO_tEEe-frPLmCFbQhg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_jbXiPPtEEe-frPLmCFbQhg" type="Activity_PostconditionCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_jbXiPftEEe-frPLmCFbQhg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_jbXiPvtEEe-frPLmCFbQhg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jbXiP_tEEe-frPLmCFbQhg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_jbXiQPtEEe-frPLmCFbQhg" type="Activity_ActivityNodeCompartment">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jbXiQftEEe-frPLmCFbQhg"/>
+      </children>
+      <element href="CloudTables-Customer.uml#_jarlsPtEEe-frPLmCFbQhg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jbXiQvtEEe-frPLmCFbQhg"/>
+    </children>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_jbXiQ_tEEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_jbXiRPtEEe-frPLmCFbQhg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_jbXiRftEEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.activity">
+      <owner href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    </styles>
+    <element href="CloudTables-Customer.uml#_jarlsPtEEe-frPLmCFbQhg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_jbrrQPtEEe-frPLmCFbQhg" type="CompositeStructure" name="Composite Structure Diagram" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_jbrrQftEEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_jbrrQvtEEe-frPLmCFbQhg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_jbrrQ_tEEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.compositeStructure.root.package">
+      <owner href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    </styles>
+    <element href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_jb01MPtEEe-frPLmCFbQhg" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_jb01MftEEe-frPLmCFbQhg" type="Interaction_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_jb01MvtEEe-frPLmCFbQhg" type="Interaction_NameLabel"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_jb01M_tEEe-frPLmCFbQhg" type="Interaction_SubfragmentCompartment">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jb01NPtEEe-frPLmCFbQhg"/>
+      </children>
+      <element href="CloudTables-Customer.uml#_jbtgcPtEEe-frPLmCFbQhg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jb01NftEEe-frPLmCFbQhg"/>
+    </children>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_jb01NvtEEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_jb01N_tEEe-frPLmCFbQhg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_jb01OPtEEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
+      <owner href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    </styles>
+    <element href="CloudTables-Customer.uml#_jbtgcPtEEe-frPLmCFbQhg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_jb5tsPtEEe-frPLmCFbQhg" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_jb5tsftEEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_jb5tsvtEEe-frPLmCFbQhg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_jb5ts_tEEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    </styles>
+    <element href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_jb670PtEEe-frPLmCFbQhg" type="UseCase" name="Use Case Diagram" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_jb670ftEEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_jb670vtEEe-frPLmCFbQhg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_jb670_tEEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+      <owner href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    </styles>
+    <element href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_jcBCcPtEEe-frPLmCFbQhg" type="PapyrusUMLComponentDiagram" name="Component Diagram" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_jcBCcftEEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_jcBCcvtEEe-frPLmCFbQhg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_jcBCc_tEEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.component.root.package">
+      <owner href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    </styles>
+    <element href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+  </notation:Diagram>
+</xmi:XMI>
