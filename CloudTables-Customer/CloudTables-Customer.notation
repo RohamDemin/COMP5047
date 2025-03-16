@@ -1,83 +1,300 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style">
-  <notation:Diagram xmi:id="_jbXiMPtEEe-frPLmCFbQhg" type="PapyrusUMLActivityDiagram" name="Activity Diagram" measurementUnit="Pixel">
-    <children xsi:type="notation:Shape" xmi:id="_jbXiMftEEe-frPLmCFbQhg" type="Activity_Shape">
-      <children xsi:type="notation:DecorationNode" xmi:id="_jbXiMvtEEe-frPLmCFbQhg" type="Activity_NameLabel"/>
-      <children xsi:type="notation:DecorationNode" xmi:id="_jbXiM_tEEe-frPLmCFbQhg" type="Activity_KeywordLabel"/>
-      <children xsi:type="notation:BasicCompartment" xmi:id="_jbXiNPtEEe-frPLmCFbQhg" type="Activity_ParameterCompartment">
-        <styles xsi:type="notation:SortingStyle" xmi:id="_jbXiNftEEe-frPLmCFbQhg"/>
-        <styles xsi:type="notation:FilteringStyle" xmi:id="_jbXiNvtEEe-frPLmCFbQhg"/>
-        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jbXiN_tEEe-frPLmCFbQhg"/>
-      </children>
-      <children xsi:type="notation:BasicCompartment" xmi:id="_jbXiOPtEEe-frPLmCFbQhg" type="Activity_PreconditionCompartment">
-        <styles xsi:type="notation:SortingStyle" xmi:id="_jbXiOftEEe-frPLmCFbQhg"/>
-        <styles xsi:type="notation:FilteringStyle" xmi:id="_jbXiOvtEEe-frPLmCFbQhg"/>
-        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jbXiO_tEEe-frPLmCFbQhg"/>
-      </children>
-      <children xsi:type="notation:BasicCompartment" xmi:id="_jbXiPPtEEe-frPLmCFbQhg" type="Activity_PostconditionCompartment">
-        <styles xsi:type="notation:SortingStyle" xmi:id="_jbXiPftEEe-frPLmCFbQhg"/>
-        <styles xsi:type="notation:FilteringStyle" xmi:id="_jbXiPvtEEe-frPLmCFbQhg"/>
-        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jbXiP_tEEe-frPLmCFbQhg"/>
-      </children>
-      <children xsi:type="notation:BasicCompartment" xmi:id="_jbXiQPtEEe-frPLmCFbQhg" type="Activity_ActivityNodeCompartment">
-        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jbXiQftEEe-frPLmCFbQhg"/>
-      </children>
-      <element href="CloudTables-Customer.uml#_jarlsPtEEe-frPLmCFbQhg"/>
-      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jbXiQvtEEe-frPLmCFbQhg"/>
-    </children>
-    <styles xsi:type="notation:StringValueStyle" xmi:id="_jbXiQ_tEEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
-    <styles xsi:type="notation:DiagramStyle" xmi:id="_jbXiRPtEEe-frPLmCFbQhg"/>
-    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_jbXiRftEEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.activity">
-      <owner href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
-    </styles>
-    <element href="CloudTables-Customer.uml#_jarlsPtEEe-frPLmCFbQhg"/>
-  </notation:Diagram>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
   <notation:Diagram xmi:id="_jbrrQPtEEe-frPLmCFbQhg" type="CompositeStructure" name="Composite Structure Diagram" measurementUnit="Pixel">
-    <styles xsi:type="notation:StringValueStyle" xmi:id="_jbrrQftEEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
-    <styles xsi:type="notation:DiagramStyle" xmi:id="_jbrrQvtEEe-frPLmCFbQhg"/>
-    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_jbrrQ_tEEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.compositeStructure.root.package">
-      <owner href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_jbrrQftEEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_jbrrQvtEEe-frPLmCFbQhg"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_jbrrQ_tEEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.compositeStructure.root.package">
+      <owner xmi:type="uml:Model" href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
     </styles>
-    <element href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
-  </notation:Diagram>
-  <notation:Diagram xmi:id="_jb01MPtEEe-frPLmCFbQhg" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
-    <children xsi:type="notation:Shape" xmi:id="_jb01MftEEe-frPLmCFbQhg" type="Interaction_Shape">
-      <children xsi:type="notation:DecorationNode" xmi:id="_jb01MvtEEe-frPLmCFbQhg" type="Interaction_NameLabel"/>
-      <children xsi:type="notation:BasicCompartment" xmi:id="_jb01M_tEEe-frPLmCFbQhg" type="Interaction_SubfragmentCompartment">
-        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jb01NPtEEe-frPLmCFbQhg"/>
-      </children>
-      <element href="CloudTables-Customer.uml#_jbtgcPtEEe-frPLmCFbQhg"/>
-      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_jb01NftEEe-frPLmCFbQhg"/>
-    </children>
-    <styles xsi:type="notation:StringValueStyle" xmi:id="_jb01NvtEEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
-    <styles xsi:type="notation:DiagramStyle" xmi:id="_jb01N_tEEe-frPLmCFbQhg"/>
-    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_jb01OPtEEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
-      <owner href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
-    </styles>
-    <element href="CloudTables-Customer.uml#_jbtgcPtEEe-frPLmCFbQhg"/>
+    <element xmi:type="uml:Model" href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
   </notation:Diagram>
   <notation:Diagram xmi:id="_jb5tsPtEEe-frPLmCFbQhg" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
-    <styles xsi:type="notation:StringValueStyle" xmi:id="_jb5tsftEEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
-    <styles xsi:type="notation:DiagramStyle" xmi:id="_jb5tsvtEEe-frPLmCFbQhg"/>
-    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_jb5ts_tEEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
-      <owner href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_jb5tsftEEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_jb5tsvtEEe-frPLmCFbQhg"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_jb5ts_tEEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Model" href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
     </styles>
-    <element href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    <element xmi:type="uml:Model" href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
   </notation:Diagram>
   <notation:Diagram xmi:id="_jb670PtEEe-frPLmCFbQhg" type="UseCase" name="Use Case Diagram" measurementUnit="Pixel">
-    <styles xsi:type="notation:StringValueStyle" xmi:id="_jb670ftEEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
-    <styles xsi:type="notation:DiagramStyle" xmi:id="_jb670vtEEe-frPLmCFbQhg"/>
-    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_jb670_tEEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
-      <owner href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    <children xmi:type="notation:Shape" xmi:id="_JI1X0PtrEe-frPLmCFbQhg" type="Actor_Shape" fontHeight="20" bold="true">
+      <children xmi:type="notation:DecorationNode" xmi:id="_JI1X0vtrEe-frPLmCFbQhg" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JI1X0_trEe-frPLmCFbQhg" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_JI1X1PtrEe-frPLmCFbQhg" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JI1X1ftrEe-frPLmCFbQhg" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_JI1X1vtrEe-frPLmCFbQhg" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JI1X1_trEe-frPLmCFbQhg" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_JI1X2PtrEe-frPLmCFbQhg" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JI1X2ftrEe-frPLmCFbQhg" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="CloudTables-Customer.uml#_JIs08PtrEe-frPLmCFbQhg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JI1X0ftrEe-frPLmCFbQhg" x="1080" y="340"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Edk84AKuEfCXZqJqnIPQ4A" type="rectangle">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tdjhYAKuEfCXZqJqnIPQ4A" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tdjhYQKuEfCXZqJqnIPQ4A" key="description" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_EdnZIQKuEfCXZqJqnIPQ4A" type="DiagramName">
+        <element xsi:nil="true"/>
+      </children>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_EdnZIgKuEfCXZqJqnIPQ4A" type="Description">
+        <element xsi:nil="true"/>
+      </children>
+      <styles xmi:type="notation:TextStyle" xmi:id="_Edk84QKuEfCXZqJqnIPQ4A"/>
+      <styles xmi:type="notation:LineTypeStyle" xmi:id="_Edk84gKuEfCXZqJqnIPQ4A"/>
+      <styles xmi:type="notation:IntValueStyle" xmi:id="_aYkNgAKuEfCXZqJqnIPQ4A" name="shapeDirection" intValue="1"/>
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_f7Y84AKuEfCXZqJqnIPQ4A" name="shapeVisibility"/>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Edk84wKuEfCXZqJqnIPQ4A" x="418" y="34" width="561" height="661"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HPBw0AKuEfCXZqJqnIPQ4A" type="UseCase_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HPCX4AKuEfCXZqJqnIPQ4A" type="UseCase_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_HPCX4QKuEfCXZqJqnIPQ4A" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HPCX4gKuEfCXZqJqnIPQ4A" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_HPCX4wKuEfCXZqJqnIPQ4A" type="UseCase_ExtensionPointCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_HPCX5AKuEfCXZqJqnIPQ4A"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_HPCX5QKuEfCXZqJqnIPQ4A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HPCX5gKuEfCXZqJqnIPQ4A"/>
+      </children>
+      <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_HO_7oAKuEfCXZqJqnIPQ4A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HPBw0QKuEfCXZqJqnIPQ4A" x="820" y="120"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_ItXXEAKuEfCXZqJqnIPQ4A" type="UseCase_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ItXXEgKuEfCXZqJqnIPQ4A" type="UseCase_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ItX-IAKuEfCXZqJqnIPQ4A" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ItX-IQKuEfCXZqJqnIPQ4A" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_ItX-IgKuEfCXZqJqnIPQ4A" type="UseCase_ExtensionPointCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_ItX-IwKuEfCXZqJqnIPQ4A"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_ItX-JAKuEfCXZqJqnIPQ4A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ItX-JQKuEfCXZqJqnIPQ4A"/>
+      </children>
+      <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_ItVh4AKuEfCXZqJqnIPQ4A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ItXXEQKuEfCXZqJqnIPQ4A" x="820" y="220"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_JLBjcAKuEfCXZqJqnIPQ4A" type="UseCase_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_JLBjcgKuEfCXZqJqnIPQ4A" type="UseCase_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_JLBjcwKuEfCXZqJqnIPQ4A" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JLBjdAKuEfCXZqJqnIPQ4A" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_JLBjdQKuEfCXZqJqnIPQ4A" type="UseCase_ExtensionPointCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_JLBjdgKuEfCXZqJqnIPQ4A"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_JLBjdwKuEfCXZqJqnIPQ4A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JLBjeAKuEfCXZqJqnIPQ4A"/>
+      </children>
+      <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_JLAVUAKuEfCXZqJqnIPQ4A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JLBjcQKuEfCXZqJqnIPQ4A" x="820" y="380"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_JkRw8AKuEfCXZqJqnIPQ4A" type="UseCase_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_JkRw8gKuEfCXZqJqnIPQ4A" type="UseCase_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_JkRw8wKuEfCXZqJqnIPQ4A" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JkRw9AKuEfCXZqJqnIPQ4A" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_JkRw9QKuEfCXZqJqnIPQ4A" type="UseCase_ExtensionPointCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_JkRw9gKuEfCXZqJqnIPQ4A"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_JkRw9wKuEfCXZqJqnIPQ4A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JkRw-AKuEfCXZqJqnIPQ4A"/>
+      </children>
+      <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_JkP7wAKuEfCXZqJqnIPQ4A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JkRw8QKuEfCXZqJqnIPQ4A" x="820" y="540"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_uv22wAKuEfCXZqJqnIPQ4A" type="Text" fontName="Segoe UI" fontHeight="20" description="CloudTables-Customer">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uv3d0AKuEfCXZqJqnIPQ4A" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uv3d0QKuEfCXZqJqnIPQ4A" key="lineColor" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uv3d0gKuEfCXZqJqnIPQ4A" key="fontHeight" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uv4E4AKuEfCXZqJqnIPQ4A" key="bold" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uv4E4QKuEfCXZqJqnIPQ4A" key="italic" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uv4E4gKuEfCXZqJqnIPQ4A" key="fontColor" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uv4E4wKuEfCXZqJqnIPQ4A" key="fillColor" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_uv4E5AKuEfCXZqJqnIPQ4A" type="DiagramName">
+        <element xsi:nil="true"/>
+      </children>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_uv4E5QKuEfCXZqJqnIPQ4A" type="Description">
+        <element xsi:nil="true"/>
+      </children>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uv22wQKuEfCXZqJqnIPQ4A" x="525" y="39"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_9ARoYAKuEfCXZqJqnIPQ4A" type="UseCase_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_9ASPcAKuEfCXZqJqnIPQ4A" type="UseCase_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_9ASPcQKuEfCXZqJqnIPQ4A" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9ASPcgKuEfCXZqJqnIPQ4A" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_9ASPcwKuEfCXZqJqnIPQ4A" type="UseCase_ExtensionPointCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_9ASPdAKuEfCXZqJqnIPQ4A"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_9ASPdQKuEfCXZqJqnIPQ4A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9ASPdgKuEfCXZqJqnIPQ4A"/>
+      </children>
+      <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_9AQaQAKuEfCXZqJqnIPQ4A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9ARoYQKuEfCXZqJqnIPQ4A" x="625" y="99"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_jb670ftEEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_jb670vtEEe-frPLmCFbQhg"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_jb670_tEEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+      <owner xmi:type="uml:Model" href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
     </styles>
-    <element href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    <styles xmi:type="notation:IntValueStyle" xmi:id="_P_T6sAKuEfCXZqJqnIPQ4A" name="rulergrid.gridlinestyle" intValue="6"/>
+    <styles xmi:type="notation:BooleanValueStyle" xmi:id="_SMXoIAKuEfCXZqJqnIPQ4A" name="rulergrid.snaptogrid"/>
+    <styles xmi:type="notation:BooleanValueStyle" xmi:id="_lNDDwAKuEfCXZqJqnIPQ4A" name="rulergrid.viewrulers"/>
+    <element xmi:type="uml:Model" href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    <edges xmi:type="notation:Connector" xmi:id="_5S2UYAKuEfCXZqJqnIPQ4A" type="Association_Edge" source="_JI1X0PtrEe-frPLmCFbQhg" target="_HPBw0AKuEfCXZqJqnIPQ4A">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5S27cAKuEfCXZqJqnIPQ4A" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5S27cQKuEfCXZqJqnIPQ4A" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5S27cgKuEfCXZqJqnIPQ4A" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5S27cwKuEfCXZqJqnIPQ4A" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_5S2UYQKuEfCXZqJqnIPQ4A"/>
+      <element xmi:type="uml:Association" href="CloudTables-Customer.uml#_5SpgEAKuEfCXZqJqnIPQ4A"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5S2UYgKuEfCXZqJqnIPQ4A" points="[1080, 341, -643984, -643984]$[935, 172, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5TnwcAKuEfCXZqJqnIPQ4A" id="(0.0,0.026666666666665152)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5TnwcQKuEfCXZqJqnIPQ4A" id="(0.8214285714285714,0.8666666666666667)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_57KRkAKuEfCXZqJqnIPQ4A" type="Association_Edge" source="_JI1X0PtrEe-frPLmCFbQhg" target="_ItXXEAKuEfCXZqJqnIPQ4A">
+      <children xmi:type="notation:DecorationNode" xmi:id="_57KRkwKuEfCXZqJqnIPQ4A" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_57KRlAKuEfCXZqJqnIPQ4A" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_57K4oAKuEfCXZqJqnIPQ4A" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_57K4oQKuEfCXZqJqnIPQ4A" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_57KRkQKuEfCXZqJqnIPQ4A"/>
+      <element xmi:type="uml:Association" href="CloudTables-Customer.uml#_57GnMAKuEfCXZqJqnIPQ4A"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_57KRkgKuEfCXZqJqnIPQ4A" points="[1080, 347, -643984, -643984]$[943, 269, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_57YUAAKuEfCXZqJqnIPQ4A" id="(0.0,0.14597826086956503)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_57YUAQKuEfCXZqJqnIPQ4A" id="(0.8785714285714286,0.8166666666666667)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_7aogQAKuEfCXZqJqnIPQ4A" type="Association_Edge" source="_JI1X0PtrEe-frPLmCFbQhg" target="_JLBjcAKuEfCXZqJqnIPQ4A">
+      <children xmi:type="notation:DecorationNode" xmi:id="_7apHUAKuEfCXZqJqnIPQ4A" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7apHUQKuEfCXZqJqnIPQ4A" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_7apHUgKuEfCXZqJqnIPQ4A" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7apHUwKuEfCXZqJqnIPQ4A" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_7aogQQKuEfCXZqJqnIPQ4A"/>
+      <element xmi:type="uml:Association" href="CloudTables-Customer.uml#_7amEAAKuEfCXZqJqnIPQ4A"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7aogQgKuEfCXZqJqnIPQ4A" points="[1080, 370, -643984, -643984]$[959, 407, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7a2isAKuEfCXZqJqnIPQ4A" id="(0.0,0.6094594594594593)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7a3JwAKuEfCXZqJqnIPQ4A" id="(0.9928571428571429,0.45)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_7_ncoAKuEfCXZqJqnIPQ4A" type="Association_Edge" source="_JI1X0PtrEe-frPLmCFbQhg" target="_JkRw8AKuEfCXZqJqnIPQ4A">
+      <children xmi:type="notation:DecorationNode" xmi:id="_7_oDsAKuEfCXZqJqnIPQ4A" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7_oDsQKuEfCXZqJqnIPQ4A" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_7_oDsgKuEfCXZqJqnIPQ4A" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7_oDswKuEfCXZqJqnIPQ4A" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_7_ncoQKuEfCXZqJqnIPQ4A"/>
+      <element xmi:type="uml:Association" href="CloudTables-Customer.uml#_7_kZUAKuEfCXZqJqnIPQ4A"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7_ncogKuEfCXZqJqnIPQ4A" points="[1080, 374, -643984, -643984]$[948, 553, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7_8z0AKuEfCXZqJqnIPQ4A" id="(0.0,0.6929801324503296)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7_8z0QKuEfCXZqJqnIPQ4A" id="(0.9142857142857143,0.21666666666666667)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_-RUZgAKuEfCXZqJqnIPQ4A" type="Generalization_Edge" source="_9ARoYAKuEfCXZqJqnIPQ4A" target="_HPBw0AKuEfCXZqJqnIPQ4A">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-RUZgwKuEfCXZqJqnIPQ4A" type="Generalization_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DXsdcAKvEfCXZqJqnIPQ4A" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-RVAkAKuEfCXZqJqnIPQ4A" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_-RUZgQKuEfCXZqJqnIPQ4A"/>
+      <element xmi:type="uml:Generalization" href="CloudTables-Customer.uml#_-RJaYAKuEfCXZqJqnIPQ4A"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-RUZggKuEfCXZqJqnIPQ4A" points="[794, 112, -643984, -643984]$[842, 127, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-Rq-0AKuEfCXZqJqnIPQ4A" id="(1.0,0.38333333333333336)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-Rq-0QKuEfCXZqJqnIPQ4A" id="(0.17142857142857143,0.0)"/>
+    </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_jcBCcPtEEe-frPLmCFbQhg" type="PapyrusUMLComponentDiagram" name="Component Diagram" measurementUnit="Pixel">
-    <styles xsi:type="notation:StringValueStyle" xmi:id="_jcBCcftEEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
-    <styles xsi:type="notation:DiagramStyle" xmi:id="_jcBCcvtEEe-frPLmCFbQhg"/>
-    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_jcBCc_tEEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.component.root.package">
-      <owner href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_jcBCcftEEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_jcBCcvtEEe-frPLmCFbQhg"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_jcBCc_tEEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.component.root.package">
+      <owner xmi:type="uml:Model" href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
     </styles>
-    <element href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    <element xmi:type="uml:Model" href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3P0ogPtiEe-frPLmCFbQhg" type="PapyrusUMLActivityDiagram" name="NewActivityDiagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_3P0ogftiEe-frPLmCFbQhg" type="Activity_Shape" fontHeight="20" bold="true">
+      <children xmi:type="notation:DecorationNode" xmi:id="_3P0ogvtiEe-frPLmCFbQhg" type="Activity_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_3P0og_tiEe-frPLmCFbQhg" type="Activity_KeywordLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_3P0ohPtiEe-frPLmCFbQhg" type="Activity_ParameterCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_3P0ohftiEe-frPLmCFbQhg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_3P0ohvtiEe-frPLmCFbQhg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3P0oh_tiEe-frPLmCFbQhg"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_3P0oiPtiEe-frPLmCFbQhg" type="Activity_PreconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_3P0oiftiEe-frPLmCFbQhg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_3P0oivtiEe-frPLmCFbQhg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3P0oi_tiEe-frPLmCFbQhg"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_3P0ojPtiEe-frPLmCFbQhg" type="Activity_PostconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_3P0ojftiEe-frPLmCFbQhg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_3P0ojvtiEe-frPLmCFbQhg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3P0oj_tiEe-frPLmCFbQhg"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_3P0okPtiEe-frPLmCFbQhg" type="Activity_ActivityNodeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_0aJyAAKsEfCXZqJqnIPQ4A" type="ActivityPartition_Shape" fontHeight="18" bold="true" fillColor="12632256">
+          <children xmi:type="notation:DecorationNode" xmi:id="_0aLAIAKsEfCXZqJqnIPQ4A" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_0aLAIQKsEfCXZqJqnIPQ4A" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_0aLAIgKsEfCXZqJqnIPQ4A" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_0aLAIwKsEfCXZqJqnIPQ4A" type="ActivityPartition_ActivityNodeCompartment">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0aLAJAKsEfCXZqJqnIPQ4A"/>
+          </children>
+          <element xmi:type="uml:ActivityPartition" href="CloudTables-Customer.uml#_0Z-L0AKsEfCXZqJqnIPQ4A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0aJyAQKsEfCXZqJqnIPQ4A" x="175" y="24" width="441" height="900"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2V9XYAKsEfCXZqJqnIPQ4A" type="ActivityPartition_Shape" fontHeight="18" bold="true" fillColor="12632256">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_F1FX0AKtEfCXZqJqnIPQ4A" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_F1FX0QKtEfCXZqJqnIPQ4A" key="fillColor" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2V9-cAKsEfCXZqJqnIPQ4A" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2V9-cQKsEfCXZqJqnIPQ4A" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2V9-cgKsEfCXZqJqnIPQ4A" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_2V9-cwKsEfCXZqJqnIPQ4A" type="ActivityPartition_ActivityNodeCompartment">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2V9-dAKsEfCXZqJqnIPQ4A"/>
+          </children>
+          <element xmi:type="uml:ActivityPartition" href="CloudTables-Customer.uml#_2V330AKsEfCXZqJqnIPQ4A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2V9XYQKsEfCXZqJqnIPQ4A" x="1055" y="24" width="481" height="900"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_TQyH8AKtEfCXZqJqnIPQ4A" type="InitialNode_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_TQyH8gKtEfCXZqJqnIPQ4A" type="InitialNode_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_TQyvAAKtEfCXZqJqnIPQ4A" y="15"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_TQyvAQKtEfCXZqJqnIPQ4A" type="InitialNode_StereotypeLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_TQyvAgKtEfCXZqJqnIPQ4A" y="15"/>
+          </children>
+          <element xmi:type="uml:InitialNode" href="CloudTables-Customer.uml#_TQqMIAKtEfCXZqJqnIPQ4A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TQyH8QKtEfCXZqJqnIPQ4A" x="95" y="99"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3P0okftiEe-frPLmCFbQhg"/>
+      </children>
+      <element xmi:type="uml:Activity" href="CloudTables-Customer.uml#_27G8wPtiEe-frPLmCFbQhg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3P0okvtiEe-frPLmCFbQhg" width="1681" height="1261"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_3P0ok_tiEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3P0olPtiEe-frPLmCFbQhg"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_3P0olftiEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.activity">
+      <owner xmi:type="uml:Model" href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    </styles>
+    <element xmi:type="uml:Activity" href="CloudTables-Customer.uml#_27G8wPtiEe-frPLmCFbQhg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_AnIWIPtjEe-frPLmCFbQhg" type="PapyrusUMLSequenceDiagram" name="NewSequenceDiagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_AnIWIftjEe-frPLmCFbQhg" type="Interaction_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_AnIWIvtjEe-frPLmCFbQhg" type="Interaction_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_AnIWI_tjEe-frPLmCFbQhg" type="Interaction_SubfragmentCompartment">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AnIWJPtjEe-frPLmCFbQhg"/>
+      </children>
+      <element xmi:type="uml:Interaction" href="CloudTables-Customer.uml#_AGxbEPtjEe-frPLmCFbQhg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AnIWJftjEe-frPLmCFbQhg"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_AnIWJvtjEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_AnIWJ_tjEe-frPLmCFbQhg"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_AnIWKPtjEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
+      <owner xmi:type="uml:Model" href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    </styles>
+    <element xmi:type="uml:Interaction" href="CloudTables-Customer.uml#_AGxbEPtjEe-frPLmCFbQhg"/>
   </notation:Diagram>
 </xmi:XMI>
