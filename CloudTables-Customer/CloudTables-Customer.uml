@@ -7,10 +7,10 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_AGxbEPtjEe-frPLmCFbQhg" name="Interaction2"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_JIs08PtrEe-frPLmCFbQhg" name="Customer"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_HO_7oAKuEfCXZqJqnIPQ4A" name="UseCase4"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_ItVh4AKuEfCXZqJqnIPQ4A" name="UseCase5"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_JLAVUAKuEfCXZqJqnIPQ4A" name="UseCase6"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_JkP7wAKuEfCXZqJqnIPQ4A" name="UseCase7"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HO_7oAKuEfCXZqJqnIPQ4A" name="Search For Restaurant"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ItVh4AKuEfCXZqJqnIPQ4A" name="Book Table"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JLAVUAKuEfCXZqJqnIPQ4A" name="Pre-Order food"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JkP7wAKuEfCXZqJqnIPQ4A" name="Leave Review"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_5SpgEAKuEfCXZqJqnIPQ4A" memberEnd="_5SsjYAKuEfCXZqJqnIPQ4A _5SvmsAKuEfCXZqJqnIPQ4A">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5SquMAKuEfCXZqJqnIPQ4A" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5SquMQKuEfCXZqJqnIPQ4A" key="nature" value="UML_Nature"/>
@@ -39,7 +39,53 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_7_lncQKuEfCXZqJqnIPQ4A" name="usecase7" type="_JkP7wAKuEfCXZqJqnIPQ4A" association="_7_kZUAKuEfCXZqJqnIPQ4A"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_7_mOgAKuEfCXZqJqnIPQ4A" name="customer" type="_JIs08PtrEe-frPLmCFbQhg" association="_7_kZUAKuEfCXZqJqnIPQ4A"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_9AQaQAKuEfCXZqJqnIPQ4A" name="UseCase12">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_9AQaQAKuEfCXZqJqnIPQ4A" name="Search by location">
     <generalization xmi:type="uml:Generalization" xmi:id="_-RJaYAKuEfCXZqJqnIPQ4A" general="_HO_7oAKuEfCXZqJqnIPQ4A"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_0xX3EASMEfC0TdSdzzZ5HA" name="ExtensionPoint2"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_l2OHIAKvEfCXZqJqnIPQ4A" name="Order" visibility="public"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_eVT9oAKzEfClntHUd-J9DA" name="Class Diagram">
+    <packagedElement xmi:type="uml:Class" xmi:id="_A-UvsAMaEfC0TdSdzzZ5HA" name="Order">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HG7FoAMaEfC0TdSdzzZ5HA" name="Property3" visibility="private" type="_t5ZQwAMaEfC0TdSdzzZ5HA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Ge_i8AMaEfC0TdSdzzZ5HA" name="orderId" visibility="private" type="_t5ZQwAMaEfC0TdSdzzZ5HA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-bQgkAMaEfC0TdSdzzZ5HA" name="Property5" visibility="private" type="_t5ZQwAMaEfC0TdSdzzZ5HA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HHvvkAMbEfC0TdSdzzZ5HA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HH_nMAMbEfC0TdSdzzZ5HA" value="1"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_QsYukAMbEfC0TdSdzzZ5HA" name="realises" client="_A-UvsAMaEfC0TdSdzzZ5HA" supplier="_Ea6LUAMaEfC0TdSdzzZ5HA" contract="_Ea6LUAMaEfC0TdSdzzZ5HA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_F4IXQAMaEfC0TdSdzzZ5HA" name="Operation1" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_IApi8AMaEfC0TdSdzzZ5HA" name="Operation2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Ea6LUAMaEfC0TdSdzzZ5HA" name="Interface2"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_t5ZQwAMaEfC0TdSdzzZ5HA" name="Int"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_SZTasASMEfC0TdSdzzZ5HA" name="Manage Account"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XHnj8ASMEfC0TdSdzzZ5HA" memberEnd="_XHrOUASMEfC0TdSdzzZ5HA _XHrOUQSMEfC0TdSdzzZ5HA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XHqAMASMEfC0TdSdzzZ5HA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XHqnQASMEfC0TdSdzzZ5HA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XHrOUASMEfC0TdSdzzZ5HA" name="manage account" type="_SZTasASMEfC0TdSdzzZ5HA" association="_XHnj8ASMEfC0TdSdzzZ5HA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XHrOUQSMEfC0TdSdzzZ5HA" name="customer" type="_JIs08PtrEe-frPLmCFbQhg" association="_XHnj8ASMEfC0TdSdzzZ5HA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_fqaEYASMEfC0TdSdzzZ5HA" name="Search by name">
+    <generalization xmi:type="uml:Generalization" xmi:id="_viG84ASMEfC0TdSdzzZ5HA" general="_HO_7oAKuEfCXZqJqnIPQ4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ie0swASMEfC0TdSdzzZ5HA" name="Search by cuisine">
+    <generalization xmi:type="uml:Generalization" xmi:id="_wAs9YASMEfC0TdSdzzZ5HA" general="_HO_7oAKuEfCXZqJqnIPQ4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_oFXegASMEfC0TdSdzzZ5HA" name="Search by rating">
+    <generalization xmi:type="uml:Generalization" xmi:id="_wZyLwASMEfC0TdSdzzZ5HA" general="_HO_7oAKuEfCXZqJqnIPQ4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_suNR4ASMEfC0TdSdzzZ5HA" name="Search by price">
+    <generalization xmi:type="uml:Generalization" xmi:id="_xAGk4ASMEfC0TdSdzzZ5HA" general="_HO_7oAKuEfCXZqJqnIPQ4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_yYSf0ASMEfC0TdSdzzZ5HA" name="Connect to GPS">
+    <extend xmi:type="uml:Extend" xmi:id="_0xWB4ASMEfC0TdSdzzZ5HA" extendedCase="_9AQaQAKuEfCXZqJqnIPQ4A" extensionLocation="_0xX3EASMEfC0TdSdzzZ5HA"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_AJrxQAMbEfC0TdSdzzZ5HA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AJu0kAMbEfC0TdSdzzZ5HA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
 </uml:Model>
