@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
   <uml:Model xmi:id="_hlgOMKBqEe-436OBgVpyXA" name="NewModel">
-    <packagedElement xmi:type="uml:Component" xmi:id="_mpYXwKBqEe-436OBgVpyXA" name="Cloud-Tables Cutomer Sub-System" useCase="_sCH-EKBqEe-436OBgVpyXA _yBPn4KBqEe-436OBgVpyXA _16lQ8KBqEe-436OBgVpyXA _6kur4KBqEe-436OBgVpyXA _TottwKBrEe-436OBgVpyXA _Xxp5EKBrEe-436OBgVpyXA _fgOHQKBrEe-436OBgVpyXA _iJHcIKBrEe-436OBgVpyXA _4Ie2cKBrEe-436OBgVpyXA _An2PcKBsEe-436OBgVpyXA _XznygKBsEe-436OBgVpyXA _b7V10KBsEe-436OBgVpyXA _0WmP4KWzEe-j7YCpcEntwg _9xLq0KY-Ee-j7YCpcEntwg _E7FFsKY_Ee-j7YCpcEntwg _jfJsAKY_Ee-j7YCpcEntwg _F45G4KZBEe-j7YCpcEntwg _H4x7AKZBEe-j7YCpcEntwg _Q2HCYKZBEe-j7YCpcEntwg _uVss4KZBEe-j7YCpcEntwg _yrx8UKZBEe-j7YCpcEntwg _8h6T8KZBEe-j7YCpcEntwg _ATZokKZCEe-j7YCpcEntwg _JJ858KfsEe-qRdxYQG-oTQ _Lp_yELiFEe-MqJzif23vKQ _OlGRQLiFEe-MqJzif23vKQ _W5JyILiFEe-MqJzif23vKQ _U76ScLi-Ee-MqJzif23vKQ _awrGYLi-Ee-MqJzif23vKQ _cXSGILkyEe-MqJzif23vKQ">
+    <packagedElement xmi:type="uml:Component" xmi:id="_mpYXwKBqEe-436OBgVpyXA" name="Cloud-Tables Cutomer Sub-System" useCase="_sCH-EKBqEe-436OBgVpyXA _yBPn4KBqEe-436OBgVpyXA _16lQ8KBqEe-436OBgVpyXA _6kur4KBqEe-436OBgVpyXA _TottwKBrEe-436OBgVpyXA _Xxp5EKBrEe-436OBgVpyXA _fgOHQKBrEe-436OBgVpyXA _iJHcIKBrEe-436OBgVpyXA _4Ie2cKBrEe-436OBgVpyXA _An2PcKBsEe-436OBgVpyXA _XznygKBsEe-436OBgVpyXA _b7V10KBsEe-436OBgVpyXA _0WmP4KWzEe-j7YCpcEntwg _9xLq0KY-Ee-j7YCpcEntwg _E7FFsKY_Ee-j7YCpcEntwg _jfJsAKY_Ee-j7YCpcEntwg _F45G4KZBEe-j7YCpcEntwg _H4x7AKZBEe-j7YCpcEntwg _Q2HCYKZBEe-j7YCpcEntwg _uVss4KZBEe-j7YCpcEntwg _yrx8UKZBEe-j7YCpcEntwg _8h6T8KZBEe-j7YCpcEntwg _ATZokKZCEe-j7YCpcEntwg _JJ858KfsEe-qRdxYQG-oTQ _Lp_yELiFEe-MqJzif23vKQ _OlGRQLiFEe-MqJzif23vKQ _W5JyILiFEe-MqJzif23vKQ _awrGYLi-Ee-MqJzif23vKQ _cXSGILkyEe-MqJzif23vKQ">
       <ownedUseCase xmi:id="_PQt74KXTEe-j7YCpcEntwg" name="Search By Price">
         <generalization xmi:id="_qTVYMKXUEe-j7YCpcEntwg" general="_sCH-EKBqEe-436OBgVpyXA"/>
       </ownedUseCase>
@@ -65,7 +65,7 @@
         <extend xmi:id="_Ij3C4KZCEe-j7YCpcEntwg" extendedCase="_yrx8UKZBEe-j7YCpcEntwg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_JJ858KfsEe-qRdxYQG-oTQ" name="Select Previous Booking" subject="_mpYXwKBqEe-436OBgVpyXA">
-        <include xmi:id="_iFjpQLi-Ee-MqJzif23vKQ" addition="_U76ScLi-Ee-MqJzif23vKQ"/>
+        <include xmi:id="_Tqu8oAv7EfC-ndSfRxNYuQ" addition="_OlGRQLiFEe-MqJzif23vKQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_Lp_yELiFEe-MqJzif23vKQ" name="Create Account" subject="_mpYXwKBqEe-436OBgVpyXA">
         <generalization xmi:id="_bOvSULiFEe-MqJzif23vKQ" general="_0WmP4KWzEe-j7YCpcEntwg"/>
@@ -76,7 +76,6 @@
       <packagedElement xmi:type="uml:UseCase" xmi:id="_W5JyILiFEe-MqJzif23vKQ" name="Reset Password" subject="_mpYXwKBqEe-436OBgVpyXA">
         <generalization xmi:id="_cegRELiFEe-MqJzif23vKQ" general="_0WmP4KWzEe-j7YCpcEntwg"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_U76ScLi-Ee-MqJzif23vKQ" name="Login" subject="_mpYXwKBqEe-436OBgVpyXA"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_awrGYLi-Ee-MqJzif23vKQ" name="See Layout" subject="_mpYXwKBqEe-436OBgVpyXA"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_cXSGILkyEe-MqJzif23vKQ" name="Customise Items" subject="_mpYXwKBqEe-436OBgVpyXA">
         <extend xmi:id="_h5GI4LkyEe-MqJzif23vKQ" extendedCase="_b7V10KBsEe-436OBgVpyXA"/>
