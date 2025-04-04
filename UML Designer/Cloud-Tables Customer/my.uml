@@ -981,7 +981,7 @@
       <packagedElement xmi:type="uml:Component" xmi:id="_MTms4A8CEfCQjetCpqK40A" name="Connection Manager">
         <ownedAttribute xmi:type="uml:Port" xmi:id="_9TVTMA8jEfCQjetCpqK40A" name="port1" aggregation="composite" isConjugated="true"/>
         <interfaceRealization xmi:id="_lw_QwA8DEfCQjetCpqK40A" client="_MTms4A8CEfCQjetCpqK40A" supplier="_arQScA8DEfCQjetCpqK40A" contract="_arQScA8DEfCQjetCpqK40A"/>
-        <interfaceRealization xmi:id="_zXU9EA8jEfCQjetCpqK40A" client="_MTms4A8CEfCQjetCpqK40A" supplier="_u2mj4A8jEfCQjetCpqK40A" contract="_u2mj4A8jEfCQjetCpqK40A"/>
+        <interfaceRealization xmi:id="_zXU9EA8jEfCQjetCpqK40A" client="_MTms4A8CEfCQjetCpqK40A"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Component" xmi:id="_Oge0IA8CEfCQjetCpqK40A" name="Profile Manager">
         <ownedAttribute xmi:type="uml:Port" xmi:id="_z-BUMA8kEfCQjetCpqK40A" name="port1" aggregation="composite" isConjugated="true"/>
@@ -1009,11 +1009,10 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_arQScA8DEfCQjetCpqK40A" name="authentication"/>
       <packagedElement xmi:type="uml:Interface" xmi:id="_x0zA4A8DEfCQjetCpqK40A" name="UserProfile"/>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_-BXEYA8DEfCQjetCpqK40A" name="RestauranSearch"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_-BXEYA8DEfCQjetCpqK40A" name="Restaurant"/>
       <packagedElement xmi:type="uml:Interface" xmi:id="_NanGUA8EEfCQjetCpqK40A" name="Booking"/>
       <packagedElement xmi:type="uml:Interface" xmi:id="_fXTVYA8EEfCQjetCpqK40A" name="Order"/>
       <packagedElement xmi:type="uml:Interface" xmi:id="_r9GYQA8EEfCQjetCpqK40A" name="Feedback"/>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_u2mj4A8jEfCQjetCpqK40A" name="Connect"/>
       <packagedElement xmi:type="uml:Interface" xmi:id="_KPnuAA8lEfCQjetCpqK40A" name="Location"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_6hyREA8BEfCQjetCpqK40A" name="CloudTables Cloud System">
@@ -1130,7 +1129,7 @@
       <packagedElement xmi:type="uml:Component" xmi:id="_AjNykA8DEfCQjetCpqK40A" name="Analytics">
         <interfaceRealization xmi:id="_W93zMA8uEfCQjetCpqK40A" client="_AjNykA8DEfCQjetCpqK40A" supplier="_SXNKEA8uEfCQjetCpqK40A" contract="_SXNKEA8uEfCQjetCpqK40A"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Component" xmi:id="_DndmsA8DEfCQjetCpqK40A" name="Data Storage">
+      <packagedElement xmi:type="uml:Component" xmi:id="_DndmsA8DEfCQjetCpqK40A" name="Database access">
         <interfaceRealization xmi:id="_vuSOQA8tEfCQjetCpqK40A" client="_DndmsA8DEfCQjetCpqK40A" supplier="_o71qEA8tEfCQjetCpqK40A" contract="_o71qEA8tEfCQjetCpqK40A"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_JMRQEA8kEfCQjetCpqK40A" name="Authenticate"/>
@@ -1148,6 +1147,9 @@
       <packagedElement xmi:type="uml:Interface" xmi:id="_o71qEA8tEfCQjetCpqK40A" name="AccessData"/>
       <packagedElement xmi:type="uml:Interface" xmi:id="_SXNKEA8uEfCQjetCpqK40A" name="AnalyzeData"/>
       <packagedElement xmi:type="uml:Interface" xmi:id="_zEgtwA8uEfCQjetCpqK40A" name="Notify"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_5mSEYBFtEfC2uPAWs8BLMg" name="Interface16"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_9yELgBFxEfC2uPAWs8BLMg" name="Interface17"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_wrux8BFyEfC2uPAWs8BLMg" name="Interface18"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_mcmZkA8DEfCQjetCpqK40A" client="_JQtjoA8CEfCQjetCpqK40A" supplier="_arQScA8DEfCQjetCpqK40A"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_31VnAA8DEfCQjetCpqK40A" client="_JQtjoA8CEfCQjetCpqK40A" supplier="_x0zA4A8DEfCQjetCpqK40A"/>
@@ -1189,6 +1191,16 @@
     <packagedElement xmi:type="uml:Usage" xmi:id="_8mSmAA8uEfCQjetCpqK40A" client="_zWocgA8CEfCQjetCpqK40A" supplier="_zEgtwA8uEfCQjetCpqK40A"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_Mz7VcA8zEfCQjetCpqK40A" client="_-hqKgA8CEfCQjetCpqK40A" supplier="_o71qEA8tEfCQjetCpqK40A"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_Ay7MQA80EfCQjetCpqK40A" client="_3kOeUA8CEfCQjetCpqK40A" supplier="_o71qEA8tEfCQjetCpqK40A"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_WCQvEBFpEfC2uPAWs8BLMg" client="_g03a4LhlEe-MqJzif23vKQ" supplier="_BvYa4Li4Ee-MqJzif23vKQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_C1MD8BFuEfC2uPAWs8BLMg" client="_zWocgA8CEfCQjetCpqK40A" supplier="_5mSEYBFtEfC2uPAWs8BLMg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_tEs2UBFxEfC2uPAWs8BLMg" client="_04oawA8CEfCQjetCpqK40A" supplier="_zEgtwA8uEfCQjetCpqK40A"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_3IlWEBFxEfC2uPAWs8BLMg" client="_04oawA8CEfCQjetCpqK40A" supplier="_o71qEA8tEfCQjetCpqK40A"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_BCh2sBFyEfC2uPAWs8BLMg" client="_04oawA8CEfCQjetCpqK40A" supplier="_9yELgBFxEfC2uPAWs8BLMg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_OKAqUBFyEfC2uPAWs8BLMg" client="_3kOeUA8CEfCQjetCpqK40A" supplier="_WoP98A8tEfCQjetCpqK40A"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_X83rgBFyEfC2uPAWs8BLMg" client="_-hqKgA8CEfCQjetCpqK40A" supplier="_SXNKEA8uEfCQjetCpqK40A"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_jZzo4BFyEfC2uPAWs8BLMg" client="_AjNykA8DEfCQjetCpqK40A" supplier="_5mSEYBFtEfC2uPAWs8BLMg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_0lIFYBFyEfC2uPAWs8BLMg" client="_AjNykA8DEfCQjetCpqK40A" supplier="_wrux8BFyEfC2uPAWs8BLMg"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ohjPsBF7EfC2uPAWs8BLMg" name="Booking"/>
     <profileApplication xmi:id="_stabkLYHEe-5Rdd7_WK1gw">
       <eAnnotations xmi:id="_stabkbYHEe-5Rdd7_WK1gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
@@ -1239,4 +1251,5 @@
   <standard:Service xmi:id="_ew-OAA8sEfCQjetCpqK40A" base_Component="_oS4bMA8CEfCQjetCpqK40A"/>
   <standard:Service xmi:id="_q3i-QA8sEfCQjetCpqK40A" base_Component="_3kOeUA8CEfCQjetCpqK40A"/>
   <standard:Service xmi:id="_sIoLoA8sEfCQjetCpqK40A" base_Component="_AjNykA8DEfCQjetCpqK40A"/>
+  <standard:Service xmi:id="_lUp14BF7EfC2uPAWs8BLMg" base_Component="_DndmsA8DEfCQjetCpqK40A"/>
 </xmi:XMI>
