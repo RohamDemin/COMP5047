@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_jb5tsPtEEe-frPLmCFbQhg" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_a9wKsBR0EfCrlajoDA9Kuw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_a9zOABR0EfCrlajoDA9Kuw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_a9zOARR0EfCrlajoDA9Kuw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a9zOAhR0EfCrlajoDA9Kuw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_a9zOAxR0EfCrlajoDA9Kuw" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_ggNGoBR0EfCrlajoDA9Kuw" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="CloudTables-Customer.uml#_ggEjwBR0EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ggNGoRR0EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_o4oxMBR0EfCrlajoDA9Kuw" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="CloudTables-Customer.uml#_o4kfwBR0EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_o4oxMRR0EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_tttCsBR0EfCrlajoDA9Kuw" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="CloudTables-Customer.uml#_ttmVABR0EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_tttCsRR0EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_w7zWYBR0EfCrlajoDA9Kuw" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="CloudTables-Customer.uml#_w7vE8BR0EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_w7zWYRR0EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_1T2UsBR0EfCrlajoDA9Kuw" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="CloudTables-Customer.uml#_1TtKwBR0EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_1T2UsRR0EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_6pm4cBR0EfCrlajoDA9Kuw" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="CloudTables-Customer.uml#_6pcgYBR0EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_6pnfgBR0EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_8FbEQBR2EfCrlajoDA9Kuw" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="CloudTables-Customer.uml#_8FPeEBR2EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_8FbEQRR2EfCrlajoDA9Kuw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_a9zOBBR0EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_a9zOBRR0EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_a9zOBhR0EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9zOBxR0EfCrlajoDA9Kuw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_a9zOCBR0EfCrlajoDA9Kuw" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_a9zOCRR0EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_a9zOChR0EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_a9zOCxR0EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9zODBR0EfCrlajoDA9Kuw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_a9zODRR0EfCrlajoDA9Kuw" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_a9zODhR0EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_a9zODxR0EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_a9zOEBR0EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9zOERR0EfCrlajoDA9Kuw"/>
+      </children>
+      <element xmi:type="uml:Class" href="CloudTables-Customer.uml#_a9gTEBR0EfCrlajoDA9Kuw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9wKsRR0EfCrlajoDA9Kuw" x="240" y="740" width="321" height="281"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_5F_7MBR1EfCrlajoDA9Kuw" type="Enumeration_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5F_7MhR1EfCrlajoDA9Kuw" type="Enumeration_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5F_7MxR1EfCrlajoDA9Kuw" type="Enumeration_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5F_7NBR1EfCrlajoDA9Kuw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_5F_7NRR1EfCrlajoDA9Kuw" type="Enumeration_LiteralCompartment">
+        <children xmi:type="notation:Shape" xmi:id="__e1skBR1EfCrlajoDA9Kuw" type="EnumerationLiteral_LiteralLabel">
+          <element xmi:type="uml:EnumerationLiteral" href="CloudTables-Customer.uml#__epfUBR1EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__e1skRR1EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_BnbJsBR2EfCrlajoDA9Kuw" type="EnumerationLiteral_LiteralLabel">
+          <element xmi:type="uml:EnumerationLiteral" href="CloudTables-Customer.uml#_BnSm0BR2EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_BnbJsRR2EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ENHZkBR2EfCrlajoDA9Kuw" type="EnumerationLiteral_LiteralLabel">
+          <element xmi:type="uml:EnumerationLiteral" href="CloudTables-Customer.uml#_ENBS8BR2EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ENHZkRR2EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_H3I0QBR2EfCrlajoDA9Kuw" type="EnumerationLiteral_LiteralLabel">
+          <element xmi:type="uml:EnumerationLiteral" href="CloudTables-Customer.uml#_H3CGkBR2EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_H3I0QRR2EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_KBLp8BR2EfCrlajoDA9Kuw" type="EnumerationLiteral_LiteralLabel">
+          <element xmi:type="uml:EnumerationLiteral" href="CloudTables-Customer.uml#_KBCgABR2EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_KBLp8RR2EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_NmsYEBR2EfCrlajoDA9Kuw" type="EnumerationLiteral_LiteralLabel">
+          <element xmi:type="uml:EnumerationLiteral" href="CloudTables-Customer.uml#_NmlDUBR2EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_NmsYERR2EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Pz_9IBR2EfCrlajoDA9Kuw" type="EnumerationLiteral_LiteralLabel">
+          <element xmi:type="uml:EnumerationLiteral" href="CloudTables-Customer.uml#_Pz5PcBR2EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Pz_9IRR2EfCrlajoDA9Kuw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_5F_7NhR1EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_5F_7NxR1EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_5F_7OBR1EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5F_7ORR1EfCrlajoDA9Kuw"/>
+      </children>
+      <element xmi:type="uml:Enumeration" href="CloudTables-Customer.uml#_5F9e8BR1EfCrlajoDA9Kuw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5F_7MRR1EfCrlajoDA9Kuw" x="1700" y="760"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Teeq0BR2EfCrlajoDA9Kuw" type="Enumeration_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Teeq0hR2EfCrlajoDA9Kuw" type="Enumeration_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Teeq0xR2EfCrlajoDA9Kuw" type="Enumeration_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Teeq1BR2EfCrlajoDA9Kuw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Teeq1RR2EfCrlajoDA9Kuw" type="Enumeration_LiteralCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_VHny4BR2EfCrlajoDA9Kuw" type="EnumerationLiteral_LiteralLabel">
+          <element xmi:type="uml:EnumerationLiteral" href="CloudTables-Customer.uml#_VHfQABR2EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_VHny4RR2EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_WLYV8BR2EfCrlajoDA9Kuw" type="EnumerationLiteral_LiteralLabel">
+          <element xmi:type="uml:EnumerationLiteral" href="CloudTables-Customer.uml#_WLQaIBR2EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_WLYV8RR2EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_d66NcBR2EfCrlajoDA9Kuw" type="EnumerationLiteral_LiteralLabel">
+          <element xmi:type="uml:EnumerationLiteral" href="CloudTables-Customer.uml#_d6wccBR2EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_d66NcRR2EfCrlajoDA9Kuw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_Teeq1hR2EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_Teeq1xR2EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_Teeq2BR2EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Teeq2RR2EfCrlajoDA9Kuw"/>
+      </children>
+      <element xmi:type="uml:Enumeration" href="CloudTables-Customer.uml#_Tec1oBR2EfCrlajoDA9Kuw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Teeq0RR2EfCrlajoDA9Kuw" x="1420" y="760"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_rmORcBR3EfCrlajoDA9Kuw" type="Interface_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_rmO4gBR3EfCrlajoDA9Kuw" type="Interface_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_rmO4gRR3EfCrlajoDA9Kuw" type="Interface_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_rmO4ghR3EfCrlajoDA9Kuw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_rmO4gxR3EfCrlajoDA9Kuw" type="Interface_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_rmO4hBR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_rmO4hRR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_rmO4hhR3EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rmO4hxR3EfCrlajoDA9Kuw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_rmO4iBR3EfCrlajoDA9Kuw" type="Interface_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_UedSYBR8EfCrlajoDA9Kuw" type="Operation_InterfaceOperationLabel">
+          <element xmi:type="uml:Operation" href="CloudTables-Customer.uml#_UeOo4BR8EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_UedSYRR8EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_VIoQwBR8EfCrlajoDA9Kuw" type="Operation_InterfaceOperationLabel">
+          <element xmi:type="uml:Operation" href="CloudTables-Customer.uml#_VId4sBR8EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_VIoQwRR8EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_cj03ABR8EfCrlajoDA9Kuw" type="Operation_InterfaceOperationLabel">
+          <element xmi:type="uml:Operation" href="CloudTables-Customer.uml#_cjsUIBR8EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_cj03ARR8EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_dLD2IBR8EfCrlajoDA9Kuw" type="Operation_InterfaceOperationLabel">
+          <element xmi:type="uml:Operation" href="CloudTables-Customer.uml#_dK1zsBR8EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_dLD2IRR8EfCrlajoDA9Kuw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_rmO4iRR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_rmO4ihR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_rmO4ixR3EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rmO4jBR3EfCrlajoDA9Kuw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_rmO4jRR3EfCrlajoDA9Kuw" type="Interface_NestedClassifierCompartment">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MnatkBSQEfCrlajoDA9Kuw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MnbUoBSQEfCrlajoDA9Kuw" key="collapsed" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_rmO4jhR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_rmO4jxR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_rmO4kBR3EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rmO4kRR3EfCrlajoDA9Kuw"/>
+      </children>
+      <element xmi:type="uml:Interface" href="CloudTables-Customer.uml#_rmMcQBR3EfCrlajoDA9Kuw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rmORcRR3EfCrlajoDA9Kuw" x="20" y="100" width="601"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_sT86IBR3EfCrlajoDA9Kuw" type="Interface_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_sT86IhR3EfCrlajoDA9Kuw" type="Interface_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sT9hMBR3EfCrlajoDA9Kuw" type="Interface_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sT9hMRR3EfCrlajoDA9Kuw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_sT9hMhR3EfCrlajoDA9Kuw" type="Interface_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_sT9hMxR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_sT9hNBR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_sT9hNRR3EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sT9hNhR3EfCrlajoDA9Kuw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_sT9hNxR3EfCrlajoDA9Kuw" type="Interface_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_92Qb0BSOEfCrlajoDA9Kuw" type="Operation_InterfaceOperationLabel">
+          <element xmi:type="uml:Operation" href="CloudTables-Customer.uml#_92CZYBSOEfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_92Qb0RSOEfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_c9hOwBSPEfCrlajoDA9Kuw" type="Operation_InterfaceOperationLabel">
+          <element xmi:type="uml:Operation" href="CloudTables-Customer.uml#_c9SlQBSPEfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_c9hOwRSPEfCrlajoDA9Kuw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_sT9hOBR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_sT9hORR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_sT9hOhR3EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sT9hOxR3EfCrlajoDA9Kuw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_sT9hPBR3EfCrlajoDA9Kuw" type="Interface_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_sT9hPRR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_sT9hPhR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_sT9hPxR3EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sT9hQBR3EfCrlajoDA9Kuw"/>
+      </children>
+      <element xmi:type="uml:Interface" href="CloudTables-Customer.uml#_sT7E8BR3EfCrlajoDA9Kuw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sT86IRR3EfCrlajoDA9Kuw" x="-40" y="320"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_tqSa8BR3EfCrlajoDA9Kuw" type="Interface_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_tqTCABR3EfCrlajoDA9Kuw" type="Interface_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_tqTCARR3EfCrlajoDA9Kuw" type="Interface_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_tqTCAhR3EfCrlajoDA9Kuw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_tqTCAxR3EfCrlajoDA9Kuw" type="Interface_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_tqTCBBR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_tqTCBRR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_tqTCBhR3EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tqTCBxR3EfCrlajoDA9Kuw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_tqTCCBR3EfCrlajoDA9Kuw" type="Interface_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_ArqKkBSuEfCrlajoDA9Kuw" type="Operation_InterfaceOperationLabel">
+          <element xmi:type="uml:Operation" href="CloudTables-Customer.uml#_AraS8BSuEfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ArqKkRSuEfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_fwD2wBSuEfCrlajoDA9Kuw" type="Operation_InterfaceOperationLabel">
+          <element xmi:type="uml:Operation" href="CloudTables-Customer.uml#_fv3CcBSuEfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_fwD2wRSuEfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_eXzREBSzEfCrlajoDA9Kuw" type="Operation_InterfaceOperationLabel">
+          <element xmi:type="uml:Operation" href="CloudTables-Customer.uml#_eXnq4BSzEfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_eXzRERSzEfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_I6iMUBS1EfCrlajoDA9Kuw" type="Operation_InterfaceOperationLabel">
+          <element xmi:type="uml:Operation" href="CloudTables-Customer.uml#_I6IjsBS1EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_I6iMURS1EfCrlajoDA9Kuw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_tqTCCRR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_tqTCChR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_tqTCCxR3EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tqTCDBR3EfCrlajoDA9Kuw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_tqTCDRR3EfCrlajoDA9Kuw" type="Interface_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_tqTCDhR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_tqTCDxR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_tqTCEBR3EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tqTCERR3EfCrlajoDA9Kuw"/>
+      </children>
+      <element xmi:type="uml:Interface" href="CloudTables-Customer.uml#_tqQlwBR3EfCrlajoDA9Kuw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tqSa8RR3EfCrlajoDA9Kuw" x="1220" y="60" width="701" height="221"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_uxVikBR3EfCrlajoDA9Kuw" type="Interface_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_uxWJoBR3EfCrlajoDA9Kuw" type="Interface_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_uxWJoRR3EfCrlajoDA9Kuw" type="Interface_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_uxWJohR3EfCrlajoDA9Kuw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_uxWJoxR3EfCrlajoDA9Kuw" type="Interface_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_uxWJpBR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_uxWJpRR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_uxWJphR3EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uxWJpxR3EfCrlajoDA9Kuw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_uxWJqBR3EfCrlajoDA9Kuw" type="Interface_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_CfiGgBSvEfCrlajoDA9Kuw" type="Operation_InterfaceOperationLabel">
+          <element xmi:type="uml:Operation" href="CloudTables-Customer.uml#_CfV5QBSvEfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_CfiGgRSvEfCrlajoDA9Kuw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_uxWJqRR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_uxWJqhR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_uxWJqxR3EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uxWJrBR3EfCrlajoDA9Kuw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_uxWJrRR3EfCrlajoDA9Kuw" type="Interface_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_uxWJrhR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_uxWJrxR3EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_uxWJsBR3EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uxWJsRR3EfCrlajoDA9Kuw"/>
+      </children>
+      <element xmi:type="uml:Interface" href="CloudTables-Customer.uml#_uxTtYBR3EfCrlajoDA9Kuw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uxVikRR3EfCrlajoDA9Kuw" x="1240" y="380"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_zJ-5oBR-EfCrlajoDA9Kuw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_zJ_gsBR-EfCrlajoDA9Kuw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_zJ_gsRR-EfCrlajoDA9Kuw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_zJ_gshR-EfCrlajoDA9Kuw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_zJ_gsxR-EfCrlajoDA9Kuw" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_zJ_gtBR-EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_zJ_gtRR-EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_zJ_gthR-EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zJ_gtxR-EfCrlajoDA9Kuw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_zJ_guBR-EfCrlajoDA9Kuw" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_zJ_guRR-EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_zJ_guhR-EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_zJ_guxR-EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zJ_gvBR-EfCrlajoDA9Kuw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_zJ_gvRR-EfCrlajoDA9Kuw" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_zJ_gvhR-EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_zJ_gvxR-EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_zJ_gwBR-EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zJ_gwRR-EfCrlajoDA9Kuw"/>
+      </children>
+      <element xmi:type="uml:Class" href="CloudTables-Customer.uml#_zJ72UBR-EfCrlajoDA9Kuw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zJ-5oRR-EfCrlajoDA9Kuw" x="1200" y="880"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_0wEtsBR-EfCrlajoDA9Kuw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_0wEtshR-EfCrlajoDA9Kuw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_0wEtsxR-EfCrlajoDA9Kuw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0wEttBR-EfCrlajoDA9Kuw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_0wEttRR-EfCrlajoDA9Kuw" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_0wEtthR-EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_0wEttxR-EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_0wEtuBR-EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0wEtuRR-EfCrlajoDA9Kuw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_0wEtuhR-EfCrlajoDA9Kuw" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_0wEtuxR-EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_0wEtvBR-EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_0wEtvRR-EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0wEtvhR-EfCrlajoDA9Kuw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_0wFUwBR-EfCrlajoDA9Kuw" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_0wFUwRR-EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_0wFUwhR-EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_0wFUwxR-EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0wFUxBR-EfCrlajoDA9Kuw"/>
+      </children>
+      <element xmi:type="uml:Class" href="CloudTables-Customer.uml#_0wC4gBR-EfCrlajoDA9Kuw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0wEtsRR-EfCrlajoDA9Kuw" x="840" y="820"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_sGbL8BStEfCrlajoDA9Kuw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_sGcaEBStEfCrlajoDA9Kuw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sGcaERStEfCrlajoDA9Kuw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sGcaEhStEfCrlajoDA9Kuw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_sGcaExStEfCrlajoDA9Kuw" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_lUaroBS4EfCrlajoDA9Kuw" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="CloudTables-Customer.uml#_lUKM8BS4EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_lUaroRS4EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_nsYokBS4EfCrlajoDA9Kuw" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="CloudTables-Customer.uml#_nsNpcBS4EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_nsYokRS4EfCrlajoDA9Kuw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_pbQlMBS4EfCrlajoDA9Kuw" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="CloudTables-Customer.uml#_pbG0MBS4EfCrlajoDA9Kuw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_pbRMQBS4EfCrlajoDA9Kuw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_sGcaFBStEfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_sGcaFRStEfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_sGcaFhStEfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGcaFxStEfCrlajoDA9Kuw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_sGdBIBStEfCrlajoDA9Kuw" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_sGdBIRStEfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_sGdBIhStEfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_sGdBIxStEfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGdBJBStEfCrlajoDA9Kuw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_sGdBJRStEfCrlajoDA9Kuw" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_sGdBJhStEfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_sGdBJxStEfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_sGdBKBStEfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGdBKRStEfCrlajoDA9Kuw"/>
+      </children>
+      <element xmi:type="uml:Class" href="CloudTables-Customer.uml#_sGPlwBStEfCrlajoDA9Kuw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGbL8RStEfCrlajoDA9Kuw" x="680" y="260" width="521" height="340"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HRt-8BS2EfCrlajoDA9Kuw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HRumABS2EfCrlajoDA9Kuw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_HRumARS2EfCrlajoDA9Kuw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HRumAhS2EfCrlajoDA9Kuw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_HRumAxS2EfCrlajoDA9Kuw" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_HRumBBS2EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_HRumBRS2EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_HRumBhS2EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HRumBxS2EfCrlajoDA9Kuw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_HRumCBS2EfCrlajoDA9Kuw" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_HRumCRS2EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_HRumChS2EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_HRumCxS2EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HRumDBS2EfCrlajoDA9Kuw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_HRvNEBS2EfCrlajoDA9Kuw" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_HRvNERS2EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_HRvNEhS2EfCrlajoDA9Kuw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_HRvNExS2EfCrlajoDA9Kuw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HRvNFBS2EfCrlajoDA9Kuw"/>
+      </children>
+      <element xmi:type="uml:Class" href="CloudTables-Customer.uml#_HRsJwBS2EfCrlajoDA9Kuw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HRt-8RS2EfCrlajoDA9Kuw" x="820" y="100"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_jb5tsftEEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_jb5tsvtEEe-frPLmCFbQhg"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_jb5ts_tEEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Model" href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    </styles>
+    <element xmi:type="uml:Model" href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    <edges xmi:type="notation:Connector" xmi:id="_EbHd4BS5EfCrlajoDA9Kuw" type="Usage_Edge" source="_sGbL8BStEfCrlajoDA9Kuw" target="_tqSa8BR3EfCrlajoDA9Kuw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_EbIE8BS5EfCrlajoDA9Kuw" type="Usage_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_EbIE8RS5EfCrlajoDA9Kuw" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_EbIE8hS5EfCrlajoDA9Kuw" type="Usage_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_EbIE8xS5EfCrlajoDA9Kuw" x="-4" y="-13"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_EbHd4RS5EfCrlajoDA9Kuw"/>
+      <element xmi:type="uml:Usage" href="CloudTables-Customer.uml#_EbB-UBS5EfCrlajoDA9Kuw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EbHd4hS5EfCrlajoDA9Kuw" points="[1201, 360, -643984, -643984]$[1340, 281, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ebl_ABS5EfCrlajoDA9Kuw" id="(1.0,0.29411764705882354)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ebl_ARS5EfCrlajoDA9Kuw" id="(0.17118402282453637,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_IaW6oBS5EfCrlajoDA9Kuw" type="Usage_Edge" source="_sGbL8BStEfCrlajoDA9Kuw" target="_uxVikBR3EfCrlajoDA9Kuw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_IaW6oxS5EfCrlajoDA9Kuw" type="Usage_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_JvaCABS5EfCrlajoDA9Kuw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IaW6pBS5EfCrlajoDA9Kuw" y="39"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_IaXhsBS5EfCrlajoDA9Kuw" type="Usage_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_JvloMBS5EfCrlajoDA9Kuw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IaXhsRS5EfCrlajoDA9Kuw" x="88" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_IaW6oRS5EfCrlajoDA9Kuw"/>
+      <element xmi:type="uml:Usage" href="CloudTables-Customer.uml#_IaUeYBS5EfCrlajoDA9Kuw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IaW6ohS5EfCrlajoDA9Kuw" points="[1201, 400, -643984, -643984]$[1240, 360, -643984, -643984]$[1420, 360, -643984, -643984]$[1420, 380, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ia34ABS5EfCrlajoDA9Kuw" id="(1.0,0.4117647058823529)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ia34ARS5EfCrlajoDA9Kuw" id="(0.27607361963190186,0.0)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_jb670PtEEe-frPLmCFbQhg" type="UseCase" name="Use Case Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_YEfncAvVEfCiNebi2ZyrnA" type="Classifier_SubjectShape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_YEfncgvVEfCiNebi2ZyrnA" type="Classifier_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_YEfncwvVEfCiNebi2ZyrnA" type="Classifier_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YEfndAvVEfCiNebi2ZyrnA" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_YEfndQvVEfCiNebi2ZyrnA" type="Classifier_UseCaseCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_suQVMASMEfC0TdSdzzZ5HA" type="UseCase_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sizesAvVEfCiNebi2ZyrnA" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_si0FwAvVEfCiNebi2ZyrnA" key="fillColor" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tgcysAvVEfCiNebi2ZyrnA" key="bold" value="true"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_umyvsAvVEfCiNebi2ZyrnA" source="ShadowFigure">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_umyvsQvVEfCiNebi2ZyrnA" key="ShadowFigure_Value" value="false"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_suQ8QASMEfC0TdSdzzZ5HA" type="UseCase_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_suQ8QQSMEfC0TdSdzzZ5HA" type="UseCase_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_suQ8QgSMEfC0TdSdzzZ5HA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_suQ8QwSMEfC0TdSdzzZ5HA" type="UseCase_ExtensionPointCompartment">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_suQ8RASMEfC0TdSdzzZ5HA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_suQ8RQSMEfC0TdSdzzZ5HA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_suQ8RgSMEfC0TdSdzzZ5HA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_suNR4ASMEfC0TdSdzzZ5HA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_suQVMQSMEfC0TdSdzzZ5HA" x="544" y="110" width="193" height="47"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_SZWeAASMEfC0TdSdzzZ5HA" type="UseCase_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_SZXFEASMEfC0TdSdzzZ5HA" type="UseCase_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_SZXFEQSMEfC0TdSdzzZ5HA" type="UseCase_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_SZXFEgSMEfC0TdSdzzZ5HA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_SZXFEwSMEfC0TdSdzzZ5HA" type="UseCase_ExtensionPointCompartment">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_SZXFFASMEfC0TdSdzzZ5HA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_SZXsIASMEfC0TdSdzzZ5HA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SZXsIQSMEfC0TdSdzzZ5HA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_SZTasASMEfC0TdSdzzZ5HA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SZWeAQSMEfC0TdSdzzZ5HA" x="940" y="779"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ie0swQSMEfC0TdSdzzZ5HA" type="UseCase_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ie0swwSMEfC0TdSdzzZ5HA" type="UseCase_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_ie0sxASMEfC0TdSdzzZ5HA" type="UseCase_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ie0sxQSMEfC0TdSdzzZ5HA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_ie0sxgSMEfC0TdSdzzZ5HA" type="UseCase_ExtensionPointCompartment">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_ie0sxwSMEfC0TdSdzzZ5HA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_ie0syASMEfC0TdSdzzZ5HA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ie0syQSMEfC0TdSdzzZ5HA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_ie0swASMEfC0TdSdzzZ5HA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ie0swgSMEfC0TdSdzzZ5HA" x="770" y="63" width="149" height="40"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_JLBjcAKuEfCXZqJqnIPQ4A" type="UseCase_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_JLBjcgKuEfCXZqJqnIPQ4A" type="UseCase_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_JLBjcwKuEfCXZqJqnIPQ4A" type="UseCase_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_JLBjdAKuEfCXZqJqnIPQ4A" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_JLBjdQKuEfCXZqJqnIPQ4A" type="UseCase_ExtensionPointCompartment">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_JLBjdgKuEfCXZqJqnIPQ4A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_JLBjdwKuEfCXZqJqnIPQ4A"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JLBjeAKuEfCXZqJqnIPQ4A"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_JLAVUAKuEfCXZqJqnIPQ4A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JLBjcQKuEfCXZqJqnIPQ4A" x="951" y="378" width="150" height="40"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_JkRw8AKuEfCXZqJqnIPQ4A" type="UseCase_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_JkRw8gKuEfCXZqJqnIPQ4A" type="UseCase_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_JkRw8wKuEfCXZqJqnIPQ4A" type="UseCase_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_JkRw9AKuEfCXZqJqnIPQ4A" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_JkRw9QKuEfCXZqJqnIPQ4A" type="UseCase_ExtensionPointCompartment">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_JkRw9gKuEfCXZqJqnIPQ4A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_JkRw9wKuEfCXZqJqnIPQ4A"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JkRw-AKuEfCXZqJqnIPQ4A"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_JkP7wAKuEfCXZqJqnIPQ4A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JkRw8QKuEfCXZqJqnIPQ4A" x="944" y="541"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ItXXEAKuEfCXZqJqnIPQ4A" type="UseCase_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ItXXEgKuEfCXZqJqnIPQ4A" type="UseCase_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_ItX-IAKuEfCXZqJqnIPQ4A" type="UseCase_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ItX-IQKuEfCXZqJqnIPQ4A" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_ItX-IgKuEfCXZqJqnIPQ4A" type="UseCase_ExtensionPointCompartment">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_ItX-IwKuEfCXZqJqnIPQ4A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_ItX-JAKuEfCXZqJqnIPQ4A"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ItX-JQKuEfCXZqJqnIPQ4A"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_ItVh4AKuEfCXZqJqnIPQ4A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ItXXEQKuEfCXZqJqnIPQ4A" x="954" y="224"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_oFZTsASMEfC0TdSdzzZ5HA" type="UseCase_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_oFZ6wASMEfC0TdSdzzZ5HA" type="UseCase_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_oFZ6wQSMEfC0TdSdzzZ5HA" type="UseCase_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_oFZ6wgSMEfC0TdSdzzZ5HA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_oFZ6wwSMEfC0TdSdzzZ5HA" type="UseCase_ExtensionPointCompartment">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_oFZ6xASMEfC0TdSdzzZ5HA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_oFZ6xQSMEfC0TdSdzzZ5HA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oFZ6xgSMEfC0TdSdzzZ5HA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_oFXegASMEfC0TdSdzzZ5HA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oFZTsQSMEfC0TdSdzzZ5HA" x="780" y="106" height="32"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_HPBw0AKuEfCXZqJqnIPQ4A" type="UseCase_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_HPCX4AKuEfCXZqJqnIPQ4A" type="UseCase_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_HPCX4QKuEfCXZqJqnIPQ4A" type="UseCase_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_HPCX4gKuEfCXZqJqnIPQ4A" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_HPCX4wKuEfCXZqJqnIPQ4A" type="UseCase_ExtensionPointCompartment">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_HPCX5AKuEfCXZqJqnIPQ4A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_HPCX5QKuEfCXZqJqnIPQ4A"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HPCX5gKuEfCXZqJqnIPQ4A"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_HO_7oAKuEfCXZqJqnIPQ4A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HPBw0QKuEfCXZqJqnIPQ4A" x="939" y="36"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_fqb5kASMEfC0TdSdzzZ5HA" type="UseCase_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_fqb5kgSMEfC0TdSdzzZ5HA" type="UseCase_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_fqb5kwSMEfC0TdSdzzZ5HA" type="UseCase_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_fqb5lASMEfC0TdSdzzZ5HA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_fqb5lQSMEfC0TdSdzzZ5HA" type="UseCase_ExtensionPointCompartment">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_fqb5lgSMEfC0TdSdzzZ5HA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_fqb5lwSMEfC0TdSdzzZ5HA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fqb5mASMEfC0TdSdzzZ5HA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_fqaEYASMEfC0TdSdzzZ5HA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fqb5kQSMEfC0TdSdzzZ5HA" x="634" y="43" width="134" height="30"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_yYUVAASMEfC0TdSdzzZ5HA" type="UseCase_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_yYUVAgSMEfC0TdSdzzZ5HA" type="UseCase_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_yYUVAwSMEfC0TdSdzzZ5HA" type="UseCase_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_yYU8EASMEfC0TdSdzzZ5HA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_yYU8EQSMEfC0TdSdzzZ5HA" type="UseCase_ExtensionPointCompartment">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_yYU8EgSMEfC0TdSdzzZ5HA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_yYU8EwSMEfC0TdSdzzZ5HA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yYU8FASMEfC0TdSdzzZ5HA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_yYSf0ASMEfC0TdSdzzZ5HA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yYUVAQSMEfC0TdSdzzZ5HA" x="338" y="94"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_9ARoYAKuEfCXZqJqnIPQ4A" type="UseCase_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_9ASPcAKuEfCXZqJqnIPQ4A" type="UseCase_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_9ASPcQKuEfCXZqJqnIPQ4A" type="UseCase_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_9ASPcgKuEfCXZqJqnIPQ4A" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_9ASPcwKuEfCXZqJqnIPQ4A" type="UseCase_ExtensionPointCompartment">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_9ASPdAKuEfCXZqJqnIPQ4A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_9ASPdQKuEfCXZqJqnIPQ4A"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9ASPdgKuEfCXZqJqnIPQ4A"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_9AQaQAKuEfCXZqJqnIPQ4A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9ARoYQKuEfCXZqJqnIPQ4A" x="636" width="135" height="30"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_BwZd0AvWEfCiNebi2ZyrnA" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_BwaE4AvWEfCiNebi2ZyrnA" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_BwaE4QvWEfCiNebi2ZyrnA" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_BwaE4gvWEfCiNebi2ZyrnA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_BwaE4wvWEfCiNebi2ZyrnA" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_BwaE5AvWEfCiNebi2ZyrnA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_BwaE5QvWEfCiNebi2ZyrnA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BwaE5gvWEfCiNebi2ZyrnA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_BwCRcAvWEfCiNebi2ZyrnA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BwZd0QvWEfCiNebi2ZyrnA" x="764" y="169"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Dey5UAvWEfCiNebi2ZyrnA" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_Dey5UgvWEfCiNebi2ZyrnA" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_Dey5UwvWEfCiNebi2ZyrnA" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Dey5VAvWEfCiNebi2ZyrnA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_Dey5VQvWEfCiNebi2ZyrnA" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Dey5VgvWEfCiNebi2ZyrnA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Dey5VwvWEfCiNebi2ZyrnA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Dey5WAvWEfCiNebi2ZyrnA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_DebF4AvWEfCiNebi2ZyrnA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Dey5UQvWEfCiNebi2ZyrnA" x="710" y="270"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_JjJocAvWEfCiNebi2ZyrnA" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_JjKPgAvWEfCiNebi2ZyrnA" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_JjKPgQvWEfCiNebi2ZyrnA" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_JjKPggvWEfCiNebi2ZyrnA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_JjKPgwvWEfCiNebi2ZyrnA" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_JjKPhAvWEfCiNebi2ZyrnA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_JjKPhQvWEfCiNebi2ZyrnA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JjKPhgvWEfCiNebi2ZyrnA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_Ji6-8AvWEfCiNebi2ZyrnA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JjJocQvWEfCiNebi2ZyrnA" x="587" y="215"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Kuh2cAvWEfCiNebi2ZyrnA" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_Kuh2cgvWEfCiNebi2ZyrnA" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_Kuh2cwvWEfCiNebi2ZyrnA" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Kuh2dAvWEfCiNebi2ZyrnA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_Kuh2dQvWEfCiNebi2ZyrnA" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Kuh2dgvWEfCiNebi2ZyrnA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Kuh2dwvWEfCiNebi2ZyrnA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Kuh2eAvWEfCiNebi2ZyrnA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_KuNGUAvWEfCiNebi2ZyrnA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Kuh2cQvWEfCiNebi2ZyrnA" x="397" y="264"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_jn9OIAvWEfCiNebi2ZyrnA" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_jn91MAvWEfCiNebi2ZyrnA" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_jn91MQvWEfCiNebi2ZyrnA" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_jn91MgvWEfCiNebi2ZyrnA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_jn91MwvWEfCiNebi2ZyrnA" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_jn91NAvWEfCiNebi2ZyrnA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_jn91NQvWEfCiNebi2ZyrnA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jn91NgvWEfCiNebi2ZyrnA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_jnlasAvWEfCiNebi2ZyrnA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jn9OIQvWEfCiNebi2ZyrnA" x="734" y="339"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_kDn2cAvWEfCiNebi2ZyrnA" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_kDn2cgvWEfCiNebi2ZyrnA" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_kDn2cwvWEfCiNebi2ZyrnA" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_kDn2dAvWEfCiNebi2ZyrnA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_kDn2dQvWEfCiNebi2ZyrnA" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_kDn2dgvWEfCiNebi2ZyrnA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_kDn2dwvWEfCiNebi2ZyrnA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kDn2eAvWEfCiNebi2ZyrnA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_kDNmwAvWEfCiNebi2ZyrnA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kDn2cQvWEfCiNebi2ZyrnA" x="743" y="422"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zfypgAvWEfCiNebi2ZyrnA" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_zfzQkAvWEfCiNebi2ZyrnA" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_zfzQkQvWEfCiNebi2ZyrnA" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_zfzQkgvWEfCiNebi2ZyrnA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_zfzQkwvWEfCiNebi2ZyrnA" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_zfzQlAvWEfCiNebi2ZyrnA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_zfzQlQvWEfCiNebi2ZyrnA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zfzQlgvWEfCiNebi2ZyrnA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_zffHgAvWEfCiNebi2ZyrnA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zfypgQvWEfCiNebi2ZyrnA" x="371" y="341"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2Br-gAvWEfCiNebi2ZyrnA" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_2Br-ggvWEfCiNebi2ZyrnA" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2Br-gwvWEfCiNebi2ZyrnA" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2Br-hAvWEfCiNebi2ZyrnA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_2Br-hQvWEfCiNebi2ZyrnA" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_2Br-hgvWEfCiNebi2ZyrnA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_2Br-hwvWEfCiNebi2ZyrnA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Br-iAvWEfCiNebi2ZyrnA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_2BVZMAvWEfCiNebi2ZyrnA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Br-gQvWEfCiNebi2ZyrnA" x="62" y="324"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_6FfyMAvWEfCiNebi2ZyrnA" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_6FfyMgvWEfCiNebi2ZyrnA" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_6FfyMwvWEfCiNebi2ZyrnA" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_6FfyNAvWEfCiNebi2ZyrnA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_6FfyNQvWEfCiNebi2ZyrnA" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_6FfyNgvWEfCiNebi2ZyrnA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_6FfyNwvWEfCiNebi2ZyrnA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6FfyOAvWEfCiNebi2ZyrnA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_6FCfMAvWEfCiNebi2ZyrnA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6FfyMQvWEfCiNebi2ZyrnA" x="442" y="439"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_lvGUQAvrEfCiNebi2ZyrnA" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_lvGUQgvrEfCiNebi2ZyrnA" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_lvGUQwvrEfCiNebi2ZyrnA" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_lvGURAvrEfCiNebi2ZyrnA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_lvGURQvrEfCiNebi2ZyrnA" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_lvGURgvrEfCiNebi2ZyrnA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_lvGURwvrEfCiNebi2ZyrnA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lvGUSAvrEfCiNebi2ZyrnA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_luyLMAvrEfCiNebi2ZyrnA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lvGUQQvrEfCiNebi2ZyrnA" x="423" y="513"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wmlbMAvrEfCiNebi2ZyrnA" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_wmqTsAvrEfCiNebi2ZyrnA" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_wmqTsQvrEfCiNebi2ZyrnA" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_wmqTsgvrEfCiNebi2ZyrnA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_wmqTswvrEfCiNebi2ZyrnA" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_wmqTtAvrEfCiNebi2ZyrnA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_wmqTtQvrEfCiNebi2ZyrnA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wmqTtgvrEfCiNebi2ZyrnA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_wmEd0AvrEfCiNebi2ZyrnA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wmlbMQvrEfCiNebi2ZyrnA" x="754" y="566"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_y8qhwAvrEfCiNebi2ZyrnA" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_y8rI0AvrEfCiNebi2ZyrnA" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_y8rI0QvrEfCiNebi2ZyrnA" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_y8rI0gvrEfCiNebi2ZyrnA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_y8rI0wvrEfCiNebi2ZyrnA" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_y8rI1AvrEfCiNebi2ZyrnA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_y8rI1QvrEfCiNebi2ZyrnA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y8rI1gvrEfCiNebi2ZyrnA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_y8WYsAvrEfCiNebi2ZyrnA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y8qhwQvrEfCiNebi2ZyrnA" x="753" y="628"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_55GvcAvrEfCiNebi2ZyrnA" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_55GvcgvrEfCiNebi2ZyrnA" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_55GvcwvrEfCiNebi2ZyrnA" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_55GvdAvrEfCiNebi2ZyrnA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_55GvdQvrEfCiNebi2ZyrnA" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_55GvdgvrEfCiNebi2ZyrnA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_55GvdwvrEfCiNebi2ZyrnA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_55GveAvrEfCiNebi2ZyrnA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_54sfwAvrEfCiNebi2ZyrnA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_55GvcQvrEfCiNebi2ZyrnA" x="490" y="575"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_8n4p4AvrEfCiNebi2ZyrnA" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_8n7tMAvrEfCiNebi2ZyrnA" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_8n7tMQvrEfCiNebi2ZyrnA" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_8n7tMgvrEfCiNebi2ZyrnA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_8n7tMwvrEfCiNebi2ZyrnA" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_8n7tNAvrEfCiNebi2ZyrnA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_8n7tNQvrEfCiNebi2ZyrnA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8n7tNgvrEfCiNebi2ZyrnA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_8nfBQAvrEfCiNebi2ZyrnA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8n4p4QvrEfCiNebi2ZyrnA" x="754" y="688"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_BO87oAvsEfCiNebi2ZyrnA" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_BO87ogvsEfCiNebi2ZyrnA" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_BO87owvsEfCiNebi2ZyrnA" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_BO87pAvsEfCiNebi2ZyrnA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_BO87pQvsEfCiNebi2ZyrnA" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_BO87pgvsEfCiNebi2ZyrnA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_BO87pwvsEfCiNebi2ZyrnA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BO87qAvsEfCiNebi2ZyrnA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_BOqnwAvsEfCiNebi2ZyrnA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BO87oQvsEfCiNebi2ZyrnA" x="23" y="543"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_I5rLoAvsEfCiNebi2ZyrnA" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_I5rLogvsEfCiNebi2ZyrnA" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_I5rLowvsEfCiNebi2ZyrnA" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_I5rLpAvsEfCiNebi2ZyrnA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_I5rLpQvsEfCiNebi2ZyrnA" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_I5rLpgvsEfCiNebi2ZyrnA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_I5rLpwvsEfCiNebi2ZyrnA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I5rLqAvsEfCiNebi2ZyrnA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_I5TYMAvsEfCiNebi2ZyrnA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I5rLoQvsEfCiNebi2ZyrnA" x="752" y="749"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_KQWDoAvsEfCiNebi2ZyrnA" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_KQWDogvsEfCiNebi2ZyrnA" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_KQWDowvsEfCiNebi2ZyrnA" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_KQWDpAvsEfCiNebi2ZyrnA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_KQWDpQvsEfCiNebi2ZyrnA" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_KQWDpgvsEfCiNebi2ZyrnA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_KQWDpwvsEfCiNebi2ZyrnA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KQWDqAvsEfCiNebi2ZyrnA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_KQDvwAvsEfCiNebi2ZyrnA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KQWDoQvsEfCiNebi2ZyrnA" x="750" y="831"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_qD8YIAvsEfCiNebi2ZyrnA" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qD8YIgvsEfCiNebi2ZyrnA" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_qD8YIwvsEfCiNebi2ZyrnA" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qD8YJAvsEfCiNebi2ZyrnA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_qD8YJQvsEfCiNebi2ZyrnA" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_qD8YJgvsEfCiNebi2ZyrnA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_qD8YJwvsEfCiNebi2ZyrnA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qD8YKAvsEfCiNebi2ZyrnA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="CloudTables-Customer.uml#_qDkksAvsEfCiNebi2ZyrnA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qD8YIQvsEfCiNebi2ZyrnA" x="248" y="622"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YEfndgvVEfCiNebi2ZyrnA"/>
+      </children>
+      <element xmi:type="uml:Component" href="CloudTables-Customer.uml#_YEWdgAvVEfCiNebi2ZyrnA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YEfncQvVEfCiNebi2ZyrnA" x="312" y="89" width="1132" height="934"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_jb670ftEEe-frPLmCFbQhg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_jb670vtEEe-frPLmCFbQhg"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_jb670_tEEe-frPLmCFbQhg" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+      <owner xmi:type="uml:Model" href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    </styles>
+    <styles xmi:type="notation:IntValueStyle" xmi:id="_P_T6sAKuEfCXZqJqnIPQ4A" name="rulergrid.gridlinestyle" intValue="6"/>
+    <styles xmi:type="notation:BooleanValueStyle" xmi:id="_SMXoIAKuEfCXZqJqnIPQ4A" name="rulergrid.snaptogrid"/>
+    <styles xmi:type="notation:BooleanValueStyle" xmi:id="_lNDDwAKuEfCXZqJqnIPQ4A" name="rulergrid.viewrulers"/>
+    <element xmi:type="uml:Model" href="CloudTables-Customer.uml#_jaeKUPtEEe-frPLmCFbQhg"/>
+    <edges xmi:type="notation:Connector" xmi:id="_-RUZgAKuEfCXZqJqnIPQ4A" type="Generalization_Edge" source="_9ARoYAKuEfCXZqJqnIPQ4A" target="_HPBw0AKuEfCXZqJqnIPQ4A">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-RUZgwKuEfCXZqJqnIPQ4A" type="Generalization_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DXsdcAKvEfCXZqJqnIPQ4A" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-RVAkAKuEfCXZqJqnIPQ4A" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_-RUZgQKuEfCXZqJqnIPQ4A"/>
+      <element xmi:type="uml:Generalization" href="CloudTables-Customer.uml#_-RJaYAKuEfCXZqJqnIPQ4A"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-RUZggKuEfCXZqJqnIPQ4A" points="[1325, 146, -643984, -643984]$[1373, 161, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-Rq-0AKuEfCXZqJqnIPQ4A" id="(1.0,0.7)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-Rq-0QKuEfCXZqJqnIPQ4A" id="(0.2465753424657534,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_viYpsASMEfC0TdSdzzZ5HA" type="Generalization_Edge" source="_fqb5kASMEfC0TdSdzzZ5HA" target="_HPBw0AKuEfCXZqJqnIPQ4A">
+      <children xmi:type="notation:DecorationNode" xmi:id="_viYpswSMEfC0TdSdzzZ5HA" type="Generalization_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Vtzc4AvVEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_viYptASMEfC0TdSdzzZ5HA" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_viYpsQSMEfC0TdSdzzZ5HA"/>
+      <element xmi:type="uml:Generalization" href="CloudTables-Customer.uml#_viG84ASMEfC0TdSdzzZ5HA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_viYpsgSMEfC0TdSdzzZ5HA" points="[1315, 168, -643984, -643984]$[1354, 174, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_virkoASMEfC0TdSdzzZ5HA" id="(0.9552238805970149,0.6666666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_virkoQSMEfC0TdSdzzZ5HA" id="(0.02054794520547945,0.3333333333333333)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_wA9cEASMEfC0TdSdzzZ5HA" type="Generalization_Edge" source="_ie0swQSMEfC0TdSdzzZ5HA" target="_HPBw0AKuEfCXZqJqnIPQ4A">
+      <children xmi:type="notation:DecorationNode" xmi:id="_wA-DIASMEfC0TdSdzzZ5HA" type="Generalization_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Vs6FAAvVEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_wA-DIQSMEfC0TdSdzzZ5HA" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_wA9cEQSMEfC0TdSdzzZ5HA"/>
+      <element xmi:type="uml:Generalization" href="CloudTables-Customer.uml#_wAs9YASMEfC0TdSdzzZ5HA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wA9cEgSMEfC0TdSdzzZ5HA" points="[1839, 194, -643984, -643984]$[1865, 191, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wBSzQASMEfC0TdSdzzZ5HA" id="(0.9731543624161074,0.325)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wBSzQQSMEfC0TdSdzzZ5HA" id="(0.0136986301369863,0.6166666666666667)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_waBcUASMEfC0TdSdzzZ5HA" type="Generalization_Edge" source="_oFZTsASMEfC0TdSdzzZ5HA" target="_HPBw0AKuEfCXZqJqnIPQ4A">
+      <children xmi:type="notation:DecorationNode" xmi:id="_waCDYASMEfC0TdSdzzZ5HA" type="Generalization_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_VteswAvVEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_waCDYQSMEfC0TdSdzzZ5HA" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_waBcUQSMEfC0TdSdzzZ5HA"/>
+      <element xmi:type="uml:Generalization" href="CloudTables-Customer.uml#_wZyLwASMEfC0TdSdzzZ5HA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_waBcUgSMEfC0TdSdzzZ5HA" points="[1236, 238, -643984, -643984]$[1261, 238, -643984, -643984]$[1274, 203, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_waVlYASMEfC0TdSdzzZ5HA" id="(0.9857142857142858,0.40625)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_waVlYQSMEfC0TdSdzzZ5HA" id="(0.09714285714285714,0.7833333333333333)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_xAYRsASMEfC0TdSdzzZ5HA" type="Generalization_Edge" source="_suQVMASMEfC0TdSdzzZ5HA" target="_HPBw0AKuEfCXZqJqnIPQ4A">
+      <children xmi:type="notation:DecorationNode" xmi:id="_xAY4wASMEfC0TdSdzzZ5HA" type="Generalization_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_xianwASMEfC0TdSdzzZ5HA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xAY4wQSMEfC0TdSdzzZ5HA" x="2" y="-17"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_xAYRsQSMEfC0TdSdzzZ5HA"/>
+      <element xmi:type="uml:Generalization" href="CloudTables-Customer.uml#_xAGk4ASMEfC0TdSdzzZ5HA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xAYRsgSMEfC0TdSdzzZ5HA" points="[1052, 258, -643984, -643984]$[1102, 264, -643984, -643984]$[1320, 270, -643984, -643984]$[1345, 215, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xAu3AASMEfC0TdSdzzZ5HA" id="(0.9844559585492227,0.6170212765957447)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xAveEASMEfC0TdSdzzZ5HA" id="(0.5028571428571429,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_0xjdQASMEfC0TdSdzzZ5HA" type="Extend_Edge" source="_yYUVAASMEfC0TdSdzzZ5HA" target="_9ARoYAKuEfCXZqJqnIPQ4A">
+      <children xmi:type="notation:DecorationNode" xmi:id="_0xkEUASMEfC0TdSdzzZ5HA" type="Extend_KeywordLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_VsBUMAvVEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0xkEUQSMEfC0TdSdzzZ5HA" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_0xkEUgSMEfC0TdSdzzZ5HA" type="Extend_StereotypeLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6mID8ASMEfC0TdSdzzZ5HA" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6mR08ASMEfC0TdSdzzZ5HA" key="displayNameLabelIcon_value" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_VsWEUAvVEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0xkEUwSMEfC0TdSdzzZ5HA" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_0xjdQQSMEfC0TdSdzzZ5HA"/>
+      <element xmi:type="uml:Extend" href="CloudTables-Customer.uml#_0xWB4ASMEfC0TdSdzzZ5HA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0xjdQgSMEfC0TdSdzzZ5HA" points="[1112, 149, -643984, -643984]$[1190, 134, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0yAwQASMEfC0TdSdzzZ5HA" id="(0.9642857142857143,0.31666666666666665)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0yAwQQSMEfC0TdSdzzZ5HA" id="(0.02962962962962963,0.6666666666666666)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_Vjf04AvWEfCiNebi2ZyrnA" type="Include_Edge" source="_ItXXEAKuEfCXZqJqnIPQ4A" target="_BwZd0AvWEfCiNebi2ZyrnA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Vjgb8AvWEfCiNebi2ZyrnA" type="Include_KeywordLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Dp45kAvXEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Vjgb8QvWEfCiNebi2ZyrnA" x="-1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Vjgb8gvWEfCiNebi2ZyrnA" type="Include_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DqFG0AvXEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Vjgb8wvWEfCiNebi2ZyrnA" x="-11" y="17"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Vjf04QvWEfCiNebi2ZyrnA"/>
+      <element xmi:type="uml:Include" href="CloudTables-Customer.uml#_VjM58AvWEfCiNebi2ZyrnA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Vjf04gvWEfCiNebi2ZyrnA" points="[1279, 359, -643984, -643984]$[1209, 335, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VkJVIAvWEfCiNebi2ZyrnA" id="(0.05,0.26666666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VkJVIQvWEfCiNebi2ZyrnA" id="(0.9071428571428571,0.7833333333333333)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_WYrwcAvWEfCiNebi2ZyrnA" type="Include_Edge" source="_ItXXEAKuEfCXZqJqnIPQ4A" target="_JjJocAvWEfCiNebi2ZyrnA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_WYrwcwvWEfCiNebi2ZyrnA" type="Include_KeywordLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DqUXYAvXEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WYrwdAvWEfCiNebi2ZyrnA" x="-1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_WYrwdQvWEfCiNebi2ZyrnA" type="Include_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DqhywAvXEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WYrwdgvWEfCiNebi2ZyrnA" x="5" y="7"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_WYrwcQvWEfCiNebi2ZyrnA"/>
+      <element xmi:type="uml:Include" href="CloudTables-Customer.uml#_WYe8IAvWEfCiNebi2ZyrnA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WYrwcgvWEfCiNebi2ZyrnA" points="[1275, 381, -643984, -643984]$[1044, 367, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WZclcAvWEfCiNebi2ZyrnA" id="(0.02142857142857143,0.6333333333333333)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WZclcQvWEfCiNebi2ZyrnA" id="(0.9928571428571429,0.55)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_YEz7EAvWEfCiNebi2ZyrnA" type="Include_Edge" source="_ItXXEAKuEfCXZqJqnIPQ4A" target="_Dey5UAvWEfCiNebi2ZyrnA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_YEz7EwvWEfCiNebi2ZyrnA" type="Include_KeywordLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DqxDUAvXEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YEz7FAvWEfCiNebi2ZyrnA" x="-2" y="17"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_YEz7FQvWEfCiNebi2ZyrnA" type="Include_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Dq9QkAvXEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YEz7FgvWEfCiNebi2ZyrnA" y="-19"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_YEz7EQvWEfCiNebi2ZyrnA"/>
+      <element xmi:type="uml:Include" href="CloudTables-Customer.uml#_YEjcYAvWEfCiNebi2ZyrnA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YEz7EgvWEfCiNebi2ZyrnA" points="[1289, 393, -643984, -643984]$[1206, 412, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YFP_8AvWEfCiNebi2ZyrnA" id="(0.12142857142857143,0.8333333333333334)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YFQnAAvWEfCiNebi2ZyrnA" id="(0.9834254143646409,0.38333333333333336)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_ZgdZsAvWEfCiNebi2ZyrnA" type="Include_Edge" source="_Dey5UAvWEfCiNebi2ZyrnA" target="_Kuh2cAvWEfCiNebi2ZyrnA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ZgdZswvWEfCiNebi2ZyrnA" type="Include_KeywordLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_4SGh8AvWEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZgdZtAvWEfCiNebi2ZyrnA" x="-1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ZgdZtQvWEfCiNebi2ZyrnA" type="Include_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_4SY10AvWEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZgdZtgvWEfCiNebi2ZyrnA" x="28" y="11"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_ZgdZsQvWEfCiNebi2ZyrnA"/>
+      <element xmi:type="uml:Include" href="CloudTables-Customer.uml#_ZgLs4AvWEfCiNebi2ZyrnA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZgdZsgvWEfCiNebi2ZyrnA" points="[1029, 425, -643984, -643984]$[755, 421, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zg3pYAvWEfCiNebi2ZyrnA" id="(0.0055248618784530384,0.6)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zg3pYQvWEfCiNebi2ZyrnA" id="(0.9928571428571429,0.4666666666666667)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_8GjrAAvWEfCiNebi2ZyrnA" type="Include_Edge" source="_JLBjcAKuEfCXZqJqnIPQ4A" target="_jn9OIAvWEfCiNebi2ZyrnA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_8GjrAwvWEfCiNebi2ZyrnA" type="Include_KeywordLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_81oXgAvWEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8GjrBAvWEfCiNebi2ZyrnA" x="-2" y="17"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8GjrBQvWEfCiNebi2ZyrnA" type="Include_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_815dQAvWEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8GjrBgvWEfCiNebi2ZyrnA" x="-9" y="24"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_8GjrAQvWEfCiNebi2ZyrnA"/>
+      <element xmi:type="uml:Include" href="CloudTables-Customer.uml#_8GSlQAvWEfCiNebi2ZyrnA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8GjrAgvWEfCiNebi2ZyrnA" points="[1212, 496, -643984, -643984]$[1191, 491, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8HFPcAvWEfCiNebi2ZyrnA" id="(0.02,0.35)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8HFPcQvWEfCiNebi2ZyrnA" id="(0.9928571428571429,0.55)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_9lUIAAvWEfCiNebi2ZyrnA" type="Include_Edge" source="_JLBjcAKuEfCXZqJqnIPQ4A" target="_kDn2cAvWEfCiNebi2ZyrnA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_9lUIAwvWEfCiNebi2ZyrnA" type="Include_KeywordLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DpVf8AvXEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9lUIBAvWEfCiNebi2ZyrnA" x="-1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_9lUIBQvWEfCiNebi2ZyrnA" type="Include_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DpmlsAvXEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9lUIBgvWEfCiNebi2ZyrnA" y="-19"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_9lUIAQvWEfCiNebi2ZyrnA"/>
+      <element xmi:type="uml:Include" href="CloudTables-Customer.uml#_9lCbMAvWEfCiNebi2ZyrnA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9lUIAgvWEfCiNebi2ZyrnA" points="[1295, 532, -643984, -643984]$[1204, 557, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9l_dcAvWEfCiNebi2ZyrnA" id="(0.17333333333333334,0.875)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9l_dcQvWEfCiNebi2ZyrnA" id="(0.9407894736842105,0.26666666666666666)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_-Lk2wAvWEfCiNebi2ZyrnA" type="Include_Edge" source="_jn9OIAvWEfCiNebi2ZyrnA" target="_zfypgAvWEfCiNebi2ZyrnA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-Lk2wwvWEfCiNebi2ZyrnA" type="Include_KeywordLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DrOWUAvXEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-Lk2xAvWEfCiNebi2ZyrnA" x="-1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-Lk2xQvWEfCiNebi2ZyrnA" type="Include_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DrbKoAvXEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-Lk2xgvWEfCiNebi2ZyrnA" y="-19"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_-Lk2wQvWEfCiNebi2ZyrnA"/>
+      <element xmi:type="uml:Include" href="CloudTables-Customer.uml#_-LWNQAvWEfCiNebi2ZyrnA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-Lk2wgvWEfCiNebi2ZyrnA" points="[1059, 501, -643984, -643984]$[833, 498, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-MLTsAvWEfCiNebi2ZyrnA" id="(0.05,0.7166666666666667)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-MLTsQvWEfCiNebi2ZyrnA" id="(0.9795918367346939,0.6333333333333333)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="__C-_4AvWEfCiNebi2ZyrnA" type="Extend_Edge" source="_2Br-gAvWEfCiNebi2ZyrnA" target="_zfypgAvWEfCiNebi2ZyrnA">
+      <children xmi:type="notation:DecorationNode" xmi:id="__C-_4wvWEfCiNebi2ZyrnA" type="Extend_KeywordLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DsPqAAvXEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__C-_5AvWEfCiNebi2ZyrnA" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="__C-_5QvWEfCiNebi2ZyrnA" type="Extend_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DslBMAvXEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__C-_5gvWEfCiNebi2ZyrnA" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="__C-_4QvWEfCiNebi2ZyrnA"/>
+      <element xmi:type="uml:Extend" href="CloudTables-Customer.uml#__CqPwAvWEfCiNebi2ZyrnA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__C-_4gvWEfCiNebi2ZyrnA" points="[518, 478, -643984, -643984]$[689, 487, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__Df9QAvWEfCiNebi2ZyrnA" id="(0.9857142857142858,0.5833333333333334)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__Df9QQvWEfCiNebi2ZyrnA" id="(0.0,0.45)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_AhflQAvXEfCiNebi2ZyrnA" type="Include_Edge" source="_kDn2cAvWEfCiNebi2ZyrnA" target="_6FfyMAvWEfCiNebi2ZyrnA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_AhflQwvXEfCiNebi2ZyrnA" type="Include_KeywordLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DruFkAvXEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_AhflRAvXEfCiNebi2ZyrnA" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_AhflRQvXEfCiNebi2ZyrnA" type="Include_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DsCOoAvXEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_AhflRgvXEfCiNebi2ZyrnA" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_AhflQQvXEfCiNebi2ZyrnA"/>
+      <element xmi:type="uml:Include" href="CloudTables-Customer.uml#_AhKOEAvXEfCiNebi2ZyrnA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AhflQgvXEfCiNebi2ZyrnA" points="[1067, 582, -643984, -643984]$[898, 582, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ah8RMAvXEfCiNebi2ZyrnA" id="(0.039473684210526314,0.6833333333333333)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ah8RMQvXEfCiNebi2ZyrnA" id="(0.9857142857142858,0.4)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_Gsh-oAvsEfCiNebi2ZyrnA" type="Extend_Edge" source="_BO87oAvsEfCiNebi2ZyrnA" target="_lvGUQAvrEfCiNebi2ZyrnA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_GsilsAvsEfCiNebi2ZyrnA" type="Extend_KeywordLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_OT28YAvsEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_GsilsQvsEfCiNebi2ZyrnA" x="-1" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_GsilsgvsEfCiNebi2ZyrnA" type="Extend_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_OUG0AAvsEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_GsilswvsEfCiNebi2ZyrnA" x="2" y="-17"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Gsh-oQvsEfCiNebi2ZyrnA"/>
+      <element xmi:type="uml:Extend" href="CloudTables-Customer.uml#_GsNOgAvsEfCiNebi2ZyrnA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Gsh-ogvsEfCiNebi2ZyrnA" points="[711, 664, -643984, -643984]$[1001, 653, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GtKQwAvsEfCiNebi2ZyrnA" id="(0.9857142857142858,0.6)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GtKQwQvsEfCiNebi2ZyrnA" id="(0.013888888888888888,0.36666666666666664)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_RYcHsAvsEfCiNebi2ZyrnA" type="Generalization_Edge" source="_I5rLoAvsEfCiNebi2ZyrnA" target="_SZWeAASMEfC0TdSdzzZ5HA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_RYcHswvsEfCiNebi2ZyrnA" type="Generalization_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_dC7Y4AvsEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RYcHtAvsEfCiNebi2ZyrnA" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_RYcHsQvsEfCiNebi2ZyrnA"/>
+      <element xmi:type="uml:Generalization" href="CloudTables-Customer.uml#_RYGwgAvsEfCiNebi2ZyrnA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RYcHsgvsEfCiNebi2ZyrnA" points="[1207, 906, -643984, -643984]$[1263, 916, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RY9sIAvsEfCiNebi2ZyrnA" id="(0.9785714285714285,0.6333333333333333)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RY9sIQvsEfCiNebi2ZyrnA" id="(0.034722222222222224,0.3)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_SLn4IAvsEfCiNebi2ZyrnA" type="Generalization_Edge" source="_KQWDoAvsEfCiNebi2ZyrnA" target="_SZWeAASMEfC0TdSdzzZ5HA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_SLn4IwvsEfCiNebi2ZyrnA" type="Generalization_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_dDTMUAvsEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_SLn4JAvsEfCiNebi2ZyrnA" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_SLn4IQvsEfCiNebi2ZyrnA"/>
+      <element xmi:type="uml:Generalization" href="CloudTables-Customer.uml#_SLTvEAvsEfCiNebi2ZyrnA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SLn4IgvsEfCiNebi2ZyrnA" points="[1197, 964, -643984, -643984]$[1265, 941, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SMCH0AvsEfCiNebi2ZyrnA" id="(0.9214285714285714,0.23333333333333334)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SMCH0QvsEfCiNebi2ZyrnA" id="(0.04861111111111111,0.7166666666666667)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_WO6HYAvsEfCiNebi2ZyrnA" type="Include_Edge" source="_lvGUQAvrEfCiNebi2ZyrnA" target="_I5rLoAvsEfCiNebi2ZyrnA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_WO6ucAvsEfCiNebi2ZyrnA" type="Include_KeywordLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_X_TuAAvsEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WO6ucQvsEfCiNebi2ZyrnA" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_WO6ucgvsEfCiNebi2ZyrnA" type="Include_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_X_la0AvsEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WO6ucwvsEfCiNebi2ZyrnA" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_WO6HYQvsEfCiNebi2ZyrnA"/>
+      <element xmi:type="uml:Include" href="CloudTables-Customer.uml#_WOepkAvsEfCiNebi2ZyrnA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WO6HYgvsEfCiNebi2ZyrnA" points="[772, 686, -643984, -643984]$[772, 883, -643984, -643984]$[1079, 883, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WPcS4AvsEfCiNebi2ZyrnA" id="(0.2152777777777778,0.9)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WPcS4QvsEfCiNebi2ZyrnA" id="(0.06428571428571428,0.25)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_a0gZgAvsEfCiNebi2ZyrnA" type="Include_Edge" source="_JkRw8AKuEfCXZqJqnIPQ4A" target="_lvGUQAvrEfCiNebi2ZyrnA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_a0gZgwvsEfCiNebi2ZyrnA" type="Include_KeywordLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_dDojgAvsEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a0gZhAvsEfCiNebi2ZyrnA" x="-1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_a0gZhQvsEfCiNebi2ZyrnA" type="Include_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_dD30EAvsEfCiNebi2ZyrnA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a0hAkAvsEfCiNebi2ZyrnA" x="-77" y="8"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_a0gZgQvsEfCiNebi2ZyrnA"/>
+      <element xmi:type="uml:Include" href="CloudTables-Customer.uml#_a0H_AAvsEfCiNebi2ZyrnA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a0gZggvsEfCiNebi2ZyrnA" points="[1266, 679, -643984, -643984]$[883, 668, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a1FoUAvsEfCiNebi2ZyrnA" id="(0.17857142857142858,0.1)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a1FoUQvsEfCiNebi2ZyrnA" id="(0.9861111111111112,0.6)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>

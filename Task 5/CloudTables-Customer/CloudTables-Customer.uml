@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jaeKUPtEEe-frPLmCFbQhg" name="CloudTables-Customer">
+  <packagedElement xmi:type="uml:Component" xmi:id="_YEWdgAvVEfCiNebi2ZyrnA" name="CloudTables-customer_subsystem" useCase="_BwCRcAvWEfCiNebi2ZyrnA _DebF4AvWEfCiNebi2ZyrnA _Ji6-8AvWEfCiNebi2ZyrnA _KuNGUAvWEfCiNebi2ZyrnA _jnlasAvWEfCiNebi2ZyrnA _kDNmwAvWEfCiNebi2ZyrnA _zffHgAvWEfCiNebi2ZyrnA _2BVZMAvWEfCiNebi2ZyrnA _6FCfMAvWEfCiNebi2ZyrnA _luyLMAvrEfCiNebi2ZyrnA _wmEd0AvrEfCiNebi2ZyrnA _y8WYsAvrEfCiNebi2ZyrnA _54sfwAvrEfCiNebi2ZyrnA _8nfBQAvrEfCiNebi2ZyrnA _BOqnwAvsEfCiNebi2ZyrnA _I5TYMAvsEfCiNebi2ZyrnA _KQDvwAvsEfCiNebi2ZyrnA _qDkksAvsEfCiNebi2ZyrnA">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_suNR4ASMEfC0TdSdzzZ5HA" name="Search by price">
+      <generalization xmi:type="uml:Generalization" xmi:id="_xAGk4ASMEfC0TdSdzzZ5HA" general="_HO_7oAKuEfCXZqJqnIPQ4A"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_SZTasASMEfC0TdSdzzZ5HA" name="Manage Account"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ie0swASMEfC0TdSdzzZ5HA" name="Search by cuisine">
+      <generalization xmi:type="uml:Generalization" xmi:id="_wAs9YASMEfC0TdSdzzZ5HA" general="_HO_7oAKuEfCXZqJqnIPQ4A"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_JLAVUAKuEfCXZqJqnIPQ4A" name="Pre-Order food">
+      <include xmi:type="uml:Include" xmi:id="_8GSlQAvWEfCiNebi2ZyrnA" addition="_jnlasAvWEfCiNebi2ZyrnA"/>
+      <include xmi:type="uml:Include" xmi:id="_9lCbMAvWEfCiNebi2ZyrnA" addition="_kDNmwAvWEfCiNebi2ZyrnA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_JkP7wAKuEfCXZqJqnIPQ4A" name="Leave Review">
+      <include xmi:type="uml:Include" xmi:id="_a0H_AAvsEfCiNebi2ZyrnA" addition="_luyLMAvrEfCiNebi2ZyrnA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ItVh4AKuEfCXZqJqnIPQ4A" name="Book Table">
+      <include xmi:type="uml:Include" xmi:id="_VjM58AvWEfCiNebi2ZyrnA" addition="_BwCRcAvWEfCiNebi2ZyrnA"/>
+      <include xmi:type="uml:Include" xmi:id="_WYe8IAvWEfCiNebi2ZyrnA" addition="_Ji6-8AvWEfCiNebi2ZyrnA"/>
+      <include xmi:type="uml:Include" xmi:id="_YEjcYAvWEfCiNebi2ZyrnA" addition="_DebF4AvWEfCiNebi2ZyrnA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_oFXegASMEfC0TdSdzzZ5HA" name="Search by rating">
+      <generalization xmi:type="uml:Generalization" xmi:id="_wZyLwASMEfC0TdSdzzZ5HA" general="_HO_7oAKuEfCXZqJqnIPQ4A"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_HO_7oAKuEfCXZqJqnIPQ4A" name="Search For Restaurant"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_fqaEYASMEfC0TdSdzzZ5HA" name="Search by name">
+      <generalization xmi:type="uml:Generalization" xmi:id="_viG84ASMEfC0TdSdzzZ5HA" general="_HO_7oAKuEfCXZqJqnIPQ4A"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_yYSf0ASMEfC0TdSdzzZ5HA" name="Connect to GPS">
+      <extend xmi:type="uml:Extend" xmi:id="_0xWB4ASMEfC0TdSdzzZ5HA" extendedCase="_9AQaQAKuEfCXZqJqnIPQ4A" extensionLocation="_0xX3EASMEfC0TdSdzzZ5HA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_9AQaQAKuEfCXZqJqnIPQ4A" name="Search by location">
+      <generalization xmi:type="uml:Generalization" xmi:id="_-RJaYAKuEfCXZqJqnIPQ4A" general="_HO_7oAKuEfCXZqJqnIPQ4A"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_0xX3EASMEfC0TdSdzzZ5HA" name="ExtensionPoint2"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_BwCRcAvWEfCiNebi2ZyrnA" name="Select Time" subject="_YEWdgAvVEfCiNebi2ZyrnA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_DebF4AvWEfCiNebi2ZyrnA" name="Check Available tables" subject="_YEWdgAvVEfCiNebi2ZyrnA">
+      <include xmi:type="uml:Include" xmi:id="_ZgLs4AvWEfCiNebi2ZyrnA" addition="_KuNGUAvWEfCiNebi2ZyrnA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Ji6-8AvWEfCiNebi2ZyrnA" name="See Layout" subject="_YEWdgAvVEfCiNebi2ZyrnA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_KuNGUAvWEfCiNebi2ZyrnA" name="Select Table" subject="_YEWdgAvVEfCiNebi2ZyrnA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_jnlasAvWEfCiNebi2ZyrnA" name="Browse Menu" subject="_YEWdgAvVEfCiNebi2ZyrnA">
+      <include xmi:type="uml:Include" xmi:id="_-LWNQAvWEfCiNebi2ZyrnA" addition="_zffHgAvWEfCiNebi2ZyrnA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_kDNmwAvWEfCiNebi2ZyrnA" name="Confirm Pre-order" subject="_YEWdgAvVEfCiNebi2ZyrnA">
+      <include xmi:type="uml:Include" xmi:id="_AhKOEAvXEfCiNebi2ZyrnA" addition="_6FCfMAvWEfCiNebi2ZyrnA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_zffHgAvWEfCiNebi2ZyrnA" name="Add Items to cart" subject="_YEWdgAvVEfCiNebi2ZyrnA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="__Cq20AvWEfCiNebi2ZyrnA" name="ExtensionPoint1"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_2BVZMAvWEfCiNebi2ZyrnA" name="Customise item" subject="_YEWdgAvVEfCiNebi2ZyrnA">
+      <extend xmi:type="uml:Extend" xmi:id="__CqPwAvWEfCiNebi2ZyrnA" extendedCase="_zffHgAvWEfCiNebi2ZyrnA" extensionLocation="__Cq20AvWEfCiNebi2ZyrnA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_6FCfMAvWEfCiNebi2ZyrnA" name="Make Payment" subject="_YEWdgAvVEfCiNebi2ZyrnA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_luyLMAvrEfCiNebi2ZyrnA" name="Select past order" subject="_YEWdgAvVEfCiNebi2ZyrnA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_GsN1kAvsEfCiNebi2ZyrnA" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_WOepkAvsEfCiNebi2ZyrnA" addition="_I5TYMAvsEfCiNebi2ZyrnA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_wmEd0AvrEfCiNebi2ZyrnA" name="Rate overall" subject="_YEWdgAvVEfCiNebi2ZyrnA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_y8WYsAvrEfCiNebi2ZyrnA" name="rate service" subject="_YEWdgAvVEfCiNebi2ZyrnA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_54sfwAvrEfCiNebi2ZyrnA" name="Rate dish" subject="_YEWdgAvVEfCiNebi2ZyrnA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_8nfBQAvrEfCiNebi2ZyrnA" name="write comments" subject="_YEWdgAvVEfCiNebi2ZyrnA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_BOqnwAvsEfCiNebi2ZyrnA" name="edit review" subject="_YEWdgAvVEfCiNebi2ZyrnA">
+      <extend xmi:type="uml:Extend" xmi:id="_GsNOgAvsEfCiNebi2ZyrnA" extendedCase="_luyLMAvrEfCiNebi2ZyrnA" extensionLocation="_GsN1kAvsEfCiNebi2ZyrnA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_I5TYMAvsEfCiNebi2ZyrnA" name="login" subject="_YEWdgAvVEfCiNebi2ZyrnA">
+      <generalization xmi:type="uml:Generalization" xmi:id="_RYGwgAvsEfCiNebi2ZyrnA" general="_SZTasASMEfC0TdSdzzZ5HA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_KQDvwAvsEfCiNebi2ZyrnA" name="register" subject="_YEWdgAvVEfCiNebi2ZyrnA">
+      <generalization xmi:type="uml:Generalization" xmi:id="_SLTvEAvsEfCiNebi2ZyrnA" general="_SZTasASMEfC0TdSdzzZ5HA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_qDkksAvsEfCiNebi2ZyrnA" name="view review" subject="_YEWdgAvVEfCiNebi2ZyrnA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_xAD1sAvsEfCiNebi2ZyrnA" name="Component13"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_xiiQoAvsEfCiNebi2ZyrnA" name="Component14">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_CxAu0AvtEfCiNebi2ZyrnA" name="Port2" visibility="public" aggregation="composite">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EJkdMAvtEfCiNebi2ZyrnA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EIXjUAvtEfCiNebi2ZyrnA" value="*"/>
+    </ownedAttribute>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_yFeMUAvxEfCiNebi2ZyrnA" name="Interface5"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_ybrs4AvxEfCiNebi2ZyrnA" name="Interface6"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_4xE68AvsEfCiNebi2ZyrnA" name="Component1" visibility="public" isActive="true">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_C8nvoAvyEfCiNebi2ZyrnA" visibility="public" client="_4xE68AvsEfCiNebi2ZyrnA" supplier="_ybrs4AvxEfCiNebi2ZyrnA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_4WPRsAvvEfCiNebi2ZyrnA" name="Component4">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_CUBekAvyEfCiNebi2ZyrnA" client="_4WPRsAvvEfCiNebi2ZyrnA" supplier="_yFeMUAvxEfCiNebi2ZyrnA" contract="_yFeMUAvxEfCiNebi2ZyrnA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_a9gTEBR0EfCrlajoDA9Kuw" name="Booking">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ggEjwBR0EfCrlajoDA9Kuw" name="id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_o4kfwBR0EfCrlajoDA9Kuw" name="userId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ttmVABR0EfCrlajoDA9Kuw" name="restaurantId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w7vE8BR0EfCrlajoDA9Kuw" name="tableId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1TtKwBR0EfCrlajoDA9Kuw" name="partySize" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6pcgYBR0EfCrlajoDA9Kuw" name="dateTime" visibility="private" type="_KRMSgBSPEfCrlajoDA9Kuw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8FPeEBR2EfCrlajoDA9Kuw" name="status" visibility="private" type="_5F9e8BR1EfCrlajoDA9Kuw" isDerived="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_5F9e8BR1EfCrlajoDA9Kuw" name="BookingStatus">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="__epfUBR1EfCrlajoDA9Kuw" name="PENDING"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_BnSm0BR2EfCrlajoDA9Kuw" name="CONFIRMED"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_ENBS8BR2EfCrlajoDA9Kuw" name="CHECKED_IN"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_H3CGkBR2EfCrlajoDA9Kuw" name="COMPLETED"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_KBCgABR2EfCrlajoDA9Kuw" name="CANCELLED_BY_CUSTOMER"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_NmlDUBR2EfCrlajoDA9Kuw" name="CANCELLED_BY_RESTAURANT"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_Pz5PcBR2EfCrlajoDA9Kuw" name="NO_SHOW"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_Tec1oBR2EfCrlajoDA9Kuw" name="PaymentStatus">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_VHfQABR2EfCrlajoDA9Kuw" name="NONE"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_WLQaIBR2EfCrlajoDA9Kuw" name="FULLY_PAID"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_d6wccBR2EfCrlajoDA9Kuw" name="FAILED"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_rmMcQBR3EfCrlajoDA9Kuw" name="IBookingManagement" visibility="public">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_UeOo4BR8EfCrlajoDA9Kuw" name="createBooking" visibility="public" concurrency="concurrent">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_cv0RUBSMEfCrlajoDA9Kuw">
+        <body>Table[]</body>
+      </ownedComment>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bsWzwBSNEfCrlajoDA9Kuw" name="request" type="_zJ72UBR-EfCrlajoDA9Kuw"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_esQTYBSNEfCrlajoDA9Kuw" name="BookingConfirmation[]" type="_0wC4gBR-EfCrlajoDA9Kuw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_VId4sBR8EfCrlajoDA9Kuw" name="cancelBooking" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_wxzjgBSNEfCrlajoDA9Kuw" name="bookingId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_45v7ABSNEfCrlajoDA9Kuw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cjsUIBR8EfCrlajoDA9Kuw" name="getBookingDetails">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ga-rYBSOEfCrlajoDA9Kuw" name="bookingId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_I5TH8BSOEfCrlajoDA9Kuw" name="booking" type="_a9gTEBR0EfCrlajoDA9Kuw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_dK1zsBR8EfCrlajoDA9Kuw" name="getUserBookings">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Spq10BSOEfCrlajoDA9Kuw" name="userId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_XTLXkBSOEfCrlajoDA9Kuw" type="_pqOAUBSOEfCrlajoDA9Kuw" direction="return">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eWisoBSOEfCrlajoDA9Kuw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eW9jYBSOEfCrlajoDA9Kuw" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_sT7E8BR3EfCrlajoDA9Kuw" name="ITableAvalability">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_92CZYBSOEfCrlajoDA9Kuw" name="checkAvailability">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_PAq5YBSPEfCrlajoDA9Kuw" name="restaurantId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_SjLW0BSPEfCrlajoDA9Kuw" name="datetime" type="_KRMSgBSPEfCrlajoDA9Kuw"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_VdImgBSPEfCrlajoDA9Kuw" name="partySize">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_aj3PwBSPEfCrlajoDA9Kuw" name="tables" type="_DxAjABSPEfCrlajoDA9Kuw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_c9SlQBSPEfCrlajoDA9Kuw" name="updateTableStatus">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_hhoTIBSPEfCrlajoDA9Kuw" name="tableId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_m0zc8BSPEfCrlajoDA9Kuw" name="status" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_tqQlwBR3EfCrlajoDA9Kuw" name="IRestaurantData">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_AraS8BSuEfCrlajoDA9Kuw" name="getRestaurantInfo" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ISEiUBSuEfCrlajoDA9Kuw" name="restaurantId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_VFgYkBSuEfCrlajoDA9Kuw" name="restaurantDetails" type="_KuLYYBSuEfCrlajoDA9Kuw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_fv3CcBSuEfCrlajoDA9Kuw" name="getMenuItems">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kzkz8BSuEfCrlajoDA9Kuw" name="restaurantId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_owhxsBSuEfCrlajoDA9Kuw" name="menuItems" type="_bnVG0BSuEfCrlajoDA9Kuw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_eXnq4BSzEfCrlajoDA9Kuw" name="getAvailableTables">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_c1sTMBS1EfCrlajoDA9Kuw" name="restaurantId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_hLtRMBS1EfCrlajoDA9Kuw" name="dateTime" type="_KRMSgBSPEfCrlajoDA9Kuw"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kZfb0BS1EfCrlajoDA9Kuw" name="partySize">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_nLZiwBS1EfCrlajoDA9Kuw" name="tables" type="_DxAjABSPEfCrlajoDA9Kuw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_I6IjsBS1EfCrlajoDA9Kuw" name="getLayout">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_TLllYBS1EfCrlajoDA9Kuw" name="restaurantId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_XFzYMBS1EfCrlajoDA9Kuw" name="layout" type="_yIsa8BSuEfCrlajoDA9Kuw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_uxTtYBR3EfCrlajoDA9Kuw" name="IsendNotification">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_CfV5QBSvEfCrlajoDA9Kuw" name="sendNotification">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_PdoUoBSvEfCrlajoDA9Kuw" name="userId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_R1MB4BSvEfCrlajoDA9Kuw" name="message">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_YwPIcBSvEfCrlajoDA9Kuw" name="type" type="_KxZPABSvEfCrlajoDA9Kuw"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_b5q-kBSvEfCrlajoDA9Kuw" name="result" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zJ72UBR-EfCrlajoDA9Kuw" name="BookingRequest"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0wC4gBR-EfCrlajoDA9Kuw" name="BookingConfirmation"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Vc8aQBSEEfCrlajoDA9Kuw" name="Class15"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_lhuakBSGEfCrlajoDA9Kuw" name="List"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pqOAUBSOEfCrlajoDA9Kuw" name="Booking[]"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ujCJYBSOEfCrlajoDA9Kuw" name="BookingConfirmation[]"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_DxAjABSPEfCrlajoDA9Kuw" name="Table[]"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_KRMSgBSPEfCrlajoDA9Kuw" name="DateTime"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_sGPlwBStEfCrlajoDA9Kuw" name="Booking Service">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_lUKM8BS4EfCrlajoDA9Kuw" name="Property1" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nsNpcBS4EfCrlajoDA9Kuw" name="Property2" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pbG0MBS4EfCrlajoDA9Kuw" name="Property3" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_KuLYYBSuEfCrlajoDA9Kuw" name="RestaurantDetails"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_bnVG0BSuEfCrlajoDA9Kuw" name="MenuItems[]"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_yIsa8BSuEfCrlajoDA9Kuw" name="TableLayout" visibility="public"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_KxZPABSvEfCrlajoDA9Kuw" name="NotificationType"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_HRsJwBS2EfCrlajoDA9Kuw" name="Booking Database"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_EbB-UBS5EfCrlajoDA9Kuw" client="_sGPlwBStEfCrlajoDA9Kuw" supplier="_tqQlwBR3EfCrlajoDA9Kuw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_IaUeYBS5EfCrlajoDA9Kuw" client="_sGPlwBStEfCrlajoDA9Kuw" supplier="_uxTtYBR3EfCrlajoDA9Kuw"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_AJrxQAMbEfC0TdSdzzZ5HA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AJu0kAMbEfC0TdSdzzZ5HA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
