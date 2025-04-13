@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
   <uml:Model xmi:id="_hlgOMKBqEe-436OBgVpyXA" name="NewModel">
-    <packagedElement xmi:type="uml:Component" xmi:id="_mpYXwKBqEe-436OBgVpyXA" name="Cloud-Tables Cutomer Sub-System" useCase="_sCH-EKBqEe-436OBgVpyXA _yBPn4KBqEe-436OBgVpyXA _6kur4KBqEe-436OBgVpyXA _Xxp5EKBrEe-436OBgVpyXA _iJHcIKBrEe-436OBgVpyXA _4Ie2cKBrEe-436OBgVpyXA _An2PcKBsEe-436OBgVpyXA _XznygKBsEe-436OBgVpyXA _b7V10KBsEe-436OBgVpyXA _0WmP4KWzEe-j7YCpcEntwg _jfJsAKY_Ee-j7YCpcEntwg _uVss4KZBEe-j7YCpcEntwg _8h6T8KZBEe-j7YCpcEntwg _JJ858KfsEe-qRdxYQG-oTQ _Lp_yELiFEe-MqJzif23vKQ _OlGRQLiFEe-MqJzif23vKQ _awrGYLi-Ee-MqJzif23vKQ _ltLoYBcSEfCepdRd97pNVA _kDm7IBcVEfCepdRd97pNVA _UsSg8BcXEfCepdRd97pNVA _79ZI0BcXEfCepdRd97pNVA">
+    <packagedElement xmi:type="uml:Component" xmi:id="_mpYXwKBqEe-436OBgVpyXA" name="Cloud-Tables Cutomer Sub-System" useCase="_sCH-EKBqEe-436OBgVpyXA _yBPn4KBqEe-436OBgVpyXA _6kur4KBqEe-436OBgVpyXA _Xxp5EKBrEe-436OBgVpyXA _iJHcIKBrEe-436OBgVpyXA _4Ie2cKBrEe-436OBgVpyXA _An2PcKBsEe-436OBgVpyXA _XznygKBsEe-436OBgVpyXA _b7V10KBsEe-436OBgVpyXA _0WmP4KWzEe-j7YCpcEntwg _jfJsAKY_Ee-j7YCpcEntwg _uVss4KZBEe-j7YCpcEntwg _8h6T8KZBEe-j7YCpcEntwg _JJ858KfsEe-qRdxYQG-oTQ _Lp_yELiFEe-MqJzif23vKQ _OlGRQLiFEe-MqJzif23vKQ _awrGYLi-Ee-MqJzif23vKQ _ltLoYBcSEfCepdRd97pNVA _kDm7IBcVEfCepdRd97pNVA _UsSg8BcXEfCepdRd97pNVA _79ZI0BcXEfCepdRd97pNVA _HajgQBg3EfCurM15lvJd2Q">
       <packagedElement xmi:type="uml:UseCase" xmi:id="_sCH-EKBqEe-436OBgVpyXA" name="Search for restaurant" subject="_mpYXwKBqEe-436OBgVpyXA">
         <include xmi:id="_Rhe8YBcYEfCepdRd97pNVA" addition="_Xxp5EKBrEe-436OBgVpyXA"/>
       </packagedElement>
@@ -9,6 +9,8 @@
         <extend xmi:id="_LcT1QBcVEfCepdRd97pNVA" extendedCase="_sCH-EKBqEe-436OBgVpyXA"/>
         <include xmi:id="_S1B50BcWEfCepdRd97pNVA" addition="_An2PcKBsEe-436OBgVpyXA"/>
         <include xmi:id="_TXZnEBcWEfCepdRd97pNVA" addition="_4Ie2cKBrEe-436OBgVpyXA"/>
+        <include xmi:id="_aJ8OABgrEfCurM15lvJd2Q" addition="_OlGRQLiFEe-MqJzif23vKQ"/>
+        <include xmi:id="_MqCc4Bg3EfCurM15lvJd2Q" addition="_HajgQBg3EfCurM15lvJd2Q"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_6kur4KBqEe-436OBgVpyXA" name="Feedback" subject="_mpYXwKBqEe-436OBgVpyXA"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_Xxp5EKBrEe-436OBgVpyXA" name="Specify Search Criteria" subject="_mpYXwKBqEe-436OBgVpyXA"/>
@@ -42,7 +44,9 @@
       <packagedElement xmi:type="uml:UseCase" xmi:id="_awrGYLi-Ee-MqJzif23vKQ" name="See Layout" subject="_mpYXwKBqEe-436OBgVpyXA">
         <extend xmi:id="_U93rEBcVEfCepdRd97pNVA" extendedCase="_sCH-EKBqEe-436OBgVpyXA"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_ltLoYBcSEfCepdRd97pNVA" name="Manage Profile" subject="_mpYXwKBqEe-436OBgVpyXA"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_ltLoYBcSEfCepdRd97pNVA" name="Manage Profile" subject="_mpYXwKBqEe-436OBgVpyXA">
+        <generalization xmi:id="_-HbJABgrEfCurM15lvJd2Q" general="_0WmP4KWzEe-j7YCpcEntwg"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_kDm7IBcVEfCepdRd97pNVA" name="View Past Reviews" subject="_mpYXwKBqEe-436OBgVpyXA">
         <extend xmi:id="_VrYJ8BcYEfCepdRd97pNVA" extendedCase="_Xxp5EKBrEe-436OBgVpyXA"/>
       </packagedElement>
@@ -53,7 +57,9 @@
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_79ZI0BcXEfCepdRd97pNVA" name="Modify Own Review" subject="_mpYXwKBqEe-436OBgVpyXA">
         <generalization xmi:id="_Ez0-ABcYEfCepdRd97pNVA" general="_6kur4KBqEe-436OBgVpyXA"/>
+        <include xmi:id="__ctg8BgrEfCurM15lvJd2Q" addition="_OlGRQLiFEe-MqJzif23vKQ"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_HajgQBg3EfCurM15lvJd2Q" name="Specify party Size" subject="_mpYXwKBqEe-436OBgVpyXA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Actor" xmi:id="_tdw1oKBqEe-436OBgVpyXA" name="Customer">
       <eAnnotations xmi:id="_tdw1oaBqEe-436OBgVpyXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -1332,7 +1338,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="__QktcBR9EfC2uPAWs8BLMg" name="BookingRequest" visibility="public"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_BzxC8BR-EfC2uPAWs8BLMg" name="BookingConfirmation" visibility="public"/>
-    <packagedElement xmi:type="uml:Activity" xmi:id="_gZsf4BbuEfCepdRd97pNVA" name="Booking Table" node="_ql97EBb4EfCepdRd97pNVA _T_GJ8Bb6EfCepdRd97pNVA _fYLiEBb6EfCepdRd97pNVA _junW0Bb6EfCepdRd97pNVA _1b4p0Bb6EfCepdRd97pNVA _9EwfsBb6EfCepdRd97pNVA" group="_w1uNcBbuEfCepdRd97pNVA _xhZAoBbuEfCepdRd97pNVA" partition="_w1uNcBbuEfCepdRd97pNVA _xhZAoBbuEfCepdRd97pNVA">
+    <packagedElement xmi:type="uml:Activity" xmi:id="_gZsf4BbuEfCepdRd97pNVA" name="Book Table" node="_ql97EBb4EfCepdRd97pNVA _fYLiEBb6EfCepdRd97pNVA _junW0Bb6EfCepdRd97pNVA _1b4p0Bb6EfCepdRd97pNVA _9EwfsBb6EfCepdRd97pNVA _R1_v8BgtEfCurM15lvJd2Q _sya6IBgtEfCurM15lvJd2Q _PJ8j8BguEfCurM15lvJd2Q _YgIQMBguEfCurM15lvJd2Q _l7fCEBguEfCurM15lvJd2Q _4I8RABguEfCurM15lvJd2Q _9gNQoBguEfCurM15lvJd2Q _4c2usBgyEfCurM15lvJd2Q _iDSEoBgyEfCurM15lvJd2Q _qkWGwBgyEfCurM15lvJd2Q _uU974Bg2EfCurM15lvJd2Q _x0Mb0Bg2EfCurM15lvJd2Q _dQ598Bg2EfCurM15lvJd2Q _VzyIQBg6EfCurM15lvJd2Q _bK0eYBg6EfCurM15lvJd2Q _gpftkBg6EfCurM15lvJd2Q _lbxJwBg6EfCurM15lvJd2Q _5GQ-cBg6EfCurM15lvJd2Q _qa5gwBg7EfCurM15lvJd2Q _OL-XcBg8EfCurM15lvJd2Q _mophsBg8EfCurM15lvJd2Q _w1ZpkBg8EfCurM15lvJd2Q _3eXhoBg8EfCurM15lvJd2Q _M2J-kBg9EfCurM15lvJd2Q _Rkk1gBg9EfCurM15lvJd2Q _DFb18Bg-EfCurM15lvJd2Q _ZzBoMBg-EfCurM15lvJd2Q _tnU5IBg-EfCurM15lvJd2Q _2UxKYBg-EfCurM15lvJd2Q _8oQhsBg-EfCurM15lvJd2Q _E_SeEBg_EfCurM15lvJd2Q _Kyqx8Bg_EfCurM15lvJd2Q _fC-CYBg_EfCurM15lvJd2Q _q7Zo8Bg_EfCurM15lvJd2Q _cg5m4BhCEfCurM15lvJd2Q _lyK98BhCEfCurM15lvJd2Q _A2-BABhDEfCurM15lvJd2Q _wi6HMBhDEfCurM15lvJd2Q __hyhUBhDEfCurM15lvJd2Q _Ap8cMBhEEfCurM15lvJd2Q _JfHGEBhEEfCurM15lvJd2Q _tyQIABhEEfCurM15lvJd2Q _71vQ4BhEEfCurM15lvJd2Q _EyyEYBhFEfCurM15lvJd2Q _QbLD0BhFEfCurM15lvJd2Q _hE7rYBhFEfCurM15lvJd2Q _rK2LcBhFEfCurM15lvJd2Q _weq1gBhFEfCurM15lvJd2Q _z-l5ABhFEfCurM15lvJd2Q _Dbj9UBhGEfCurM15lvJd2Q _G_kPkBhGEfCurM15lvJd2Q _iPvcMBhGEfCurM15lvJd2Q _pIBioBhGEfCurM15lvJd2Q _4ZI8QBhGEfCurM15lvJd2Q" group="_w1uNcBbuEfCepdRd97pNVA _xhZAoBbuEfCepdRd97pNVA" partition="_w1uNcBbuEfCepdRd97pNVA _xhZAoBbuEfCepdRd97pNVA">
       <ownedBehavior xmi:type="uml:Activity" xmi:id="_mEXjsBbuEfCepdRd97pNVA" name="Leaving Review" node="_mEXkMBbuEfCepdRd97pNVA _mEYKwBbuEfCepdRd97pNVA _mEYKwRbuEfCepdRd97pNVA _mEYKwhbuEfCepdRd97pNVA _mEYKwxbuEfCepdRd97pNVA _mEYKxBbuEfCepdRd97pNVA _mEYKxRbuEfCepdRd97pNVA _mEYKxhbuEfCepdRd97pNVA _mEYKxxbuEfCepdRd97pNVA _mEYKyBbuEfCepdRd97pNVA _mEYKyRbuEfCepdRd97pNVA _mEYKyhbuEfCepdRd97pNVA _mEYKyxbuEfCepdRd97pNVA _mEYKzBbuEfCepdRd97pNVA _mEYKzRbuEfCepdRd97pNVA _mEYKzhbuEfCepdRd97pNVA _mEYKzxbuEfCepdRd97pNVA _mEYK0BbuEfCepdRd97pNVA _mEYK0RbuEfCepdRd97pNVA _mEYK0hbuEfCepdRd97pNVA _mEYK0xbuEfCepdRd97pNVA _mEYK1BbuEfCepdRd97pNVA _mEYK1RbuEfCepdRd97pNVA _mEYK1hbuEfCepdRd97pNVA _mEYK1xbuEfCepdRd97pNVA _mEYK2BbuEfCepdRd97pNVA _mEYK2RbuEfCepdRd97pNVA _mEYK2hbuEfCepdRd97pNVA _mEYK2xbuEfCepdRd97pNVA _mEYK3BbuEfCepdRd97pNVA _mEYK3RbuEfCepdRd97pNVA _mEYK3hbuEfCepdRd97pNVA _mEYK3xbuEfCepdRd97pNVA _mEYK4BbuEfCepdRd97pNVA _mEYK4RbuEfCepdRd97pNVA _mEYK4hbuEfCepdRd97pNVA _mEYK4xbuEfCepdRd97pNVA _mEYK5BbuEfCepdRd97pNVA" group="_mEXjsRbuEfCepdRd97pNVA _mEXjshbuEfCepdRd97pNVA" partition="_mEXjsRbuEfCepdRd97pNVA _mEXjshbuEfCepdRd97pNVA">
         <edge xmi:type="uml:ControlFlow" xmi:id="_mEXjsxbuEfCepdRd97pNVA" target="_mEXkMBbuEfCepdRd97pNVA" source="_mEYKwRbuEfCepdRd97pNVA">
           <guard xmi:type="uml:LiteralBoolean" xmi:id="_mEXjtBbuEfCepdRd97pNVA" name="Start Registration_To_Request Customer Registration Form_guard" value="true"/>
@@ -1577,40 +1583,425 @@
           <joinSpec xmi:type="uml:LiteralBoolean" xmi:id="_mEYK5RbuEfCepdRd97pNVA" name="Join1" value="true"/>
         </node>
       </ownedBehavior>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_cYpO0Bb6EfCepdRd97pNVA" target="_T_GJ8Bb6EfCepdRd97pNVA" source="_ql97EBb4EfCepdRd97pNVA">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_cYpO0Bb6EfCepdRd97pNVA" source="_ql97EBb4EfCepdRd97pNVA">
         <guard xmi:type="uml:LiteralBoolean" xmi:id="_cYpO0Rb6EfCepdRd97pNVA" name="Initial1_To_Request Booking_guard" value="true"/>
         <weight xmi:type="uml:LiteralInteger" xmi:id="_cYqc8Bb6EfCepdRd97pNVA" name="Initial1_To_Request Booking_weight"/>
       </edge>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_i7JSgBb6EfCepdRd97pNVA" target="_fYLiEBb6EfCepdRd97pNVA" source="_T_GJ8Bb6EfCepdRd97pNVA">
-        <guard xmi:type="uml:LiteralBoolean" xmi:id="_i7JSgRb6EfCepdRd97pNVA" name="Request Booking_To_Booking Request_guard" value="true"/>
-        <weight xmi:type="uml:LiteralInteger" xmi:id="_i7JSghb6EfCepdRd97pNVA" name="Request Booking_To_Booking Request_weight"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_TWPlQBguEfCurM15lvJd2Q" target="_PJ8j8BguEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_TWPlQRguEfCurM15lvJd2Q" name="start restaurant search_To_Request restaurant search form_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_TWYvMBguEfCurM15lvJd2Q" name="start restaurant search_To_Request restaurant search form_weight"/>
       </edge>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_0A1oIBb6EfCepdRd97pNVA" target="_junW0Bb6EfCepdRd97pNVA" source="_fYLiEBb6EfCepdRd97pNVA">
-        <guard xmi:type="uml:LiteralBoolean" xmi:id="_0A1oIRb6EfCepdRd97pNVA" name="Booking Request_To_Prepare Booking Request Form_guard" value="true"/>
-        <weight xmi:type="uml:LiteralInteger" xmi:id="_0A1oIhb6EfCepdRd97pNVA" name="Booking Request_To_Prepare Booking Request Form_weight"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_tcrioBguEfCurM15lvJd2Q" target="_YgIQMBguEfCurM15lvJd2Q" source="_PJ8j8BguEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_tcrioRguEfCurM15lvJd2Q" name="Request restaurant search form_To_Request Restaurant Search Form_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_tcriohguEfCurM15lvJd2Q" name="Request restaurant search form_To_Request Restaurant Search Form_weight"/>
       </edge>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_62yMQBb6EfCepdRd97pNVA" target="_1b4p0Bb6EfCepdRd97pNVA" source="_junW0Bb6EfCepdRd97pNVA">
-        <guard xmi:type="uml:LiteralBoolean" xmi:id="_62yMQRb6EfCepdRd97pNVA" name="Prepare Booking Request Form_To_Send Booking Request Form_guard" value="true"/>
-        <weight xmi:type="uml:LiteralInteger" xmi:id="_62yzUBb6EfCepdRd97pNVA" name="Prepare Booking Request Form_To_Send Booking Request Form_weight"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_uUKkQBguEfCurM15lvJd2Q" target="_l7fCEBguEfCurM15lvJd2Q" source="_YgIQMBguEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_uUKkQRguEfCurM15lvJd2Q" name="Request Restaurant Search Form_To_Send Restaurant Search Form_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_uUKkQhguEfCurM15lvJd2Q" name="Request Restaurant Search Form_To_Send Restaurant Search Form_weight"/>
       </edge>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_A_iTMBb7EfCepdRd97pNVA" target="_9EwfsBb6EfCepdRd97pNVA" source="_1b4p0Bb6EfCepdRd97pNVA">
-        <guard xmi:type="uml:LiteralBoolean" xmi:id="_A_iTMRb7EfCepdRd97pNVA" name="Send Booking Request Form_To_Booking Request Form_guard" value="true"/>
-        <weight xmi:type="uml:LiteralInteger" xmi:id="_A_iTMhb7EfCepdRd97pNVA" name="Send Booking Request Form_To_Booking Request Form_weight"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_8ypnEBguEfCurM15lvJd2Q" target="_4I8RABguEfCurM15lvJd2Q" source="_l7fCEBguEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_8ypnERguEfCurM15lvJd2Q" name="Send Restaurant Search Form_To_Restaurant search Form_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_8ypnEhguEfCurM15lvJd2Q" name="Send Restaurant Search Form_To_Restaurant search Form_weight"/>
       </edge>
-      <group xmi:type="uml:ActivityPartition" xmi:id="_w1uNcBbuEfCepdRd97pNVA" name="cloudTables-Customer SubSystem" node="_junW0Bb6EfCepdRd97pNVA _1b4p0Bb6EfCepdRd97pNVA"/>
-      <group xmi:type="uml:ActivityPartition" xmi:id="_xhZAoBbuEfCepdRd97pNVA" name="Customer" node="_T_GJ8Bb6EfCepdRd97pNVA"/>
-      <node xmi:type="uml:InitialNode" xmi:id="_ql97EBb4EfCepdRd97pNVA" name="Initial1" outgoing="_cYpO0Bb6EfCepdRd97pNVA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_T_GJ8Bb6EfCepdRd97pNVA" name="Request Booking" incoming="_cYpO0Bb6EfCepdRd97pNVA" outgoing="_i7JSgBb6EfCepdRd97pNVA" inPartition="_xhZAoBbuEfCepdRd97pNVA">
-        <body>// TODO body of OpaqueAction1</body>
-      </node>
-      <node xmi:type="uml:DataStoreNode" xmi:id="_fYLiEBb6EfCepdRd97pNVA" name="Booking Request" incoming="_i7JSgBb6EfCepdRd97pNVA" outgoing="_0A1oIBb6EfCepdRd97pNVA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_junW0Bb6EfCepdRd97pNVA" name="Prepare Booking Request Form" incoming="_0A1oIBb6EfCepdRd97pNVA" outgoing="_62yMQBb6EfCepdRd97pNVA" inPartition="_w1uNcBbuEfCepdRd97pNVA">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_CEG5oBgvEfCurM15lvJd2Q" target="_9gNQoBguEfCurM15lvJd2Q" source="_4I8RABguEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_CEG5oRgvEfCurM15lvJd2Q" name="Restaurant search Form_To_Fill Restaurant Search Form_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_CEG5ohgvEfCurM15lvJd2Q" name="Restaurant search Form_To_Fill Restaurant Search Form_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_7VQ7sBgxEfCurM15lvJd2Q" target="_fYLiEBb6EfCepdRd97pNVA" source="_9gNQoBguEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_7VQ7sRgxEfCurM15lvJd2Q" name="Fill Restaurant Search Form_To_Search Form={location, cuisine, number of tables}_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_7VYQcBgxEfCurM15lvJd2Q" name="Fill Restaurant Search Form_To_Search Form={location, cuisine, number of tables}_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_9kP7wBgxEfCurM15lvJd2Q" target="_junW0Bb6EfCepdRd97pNVA" source="_fYLiEBb6EfCepdRd97pNVA">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_9kP7wRgxEfCurM15lvJd2Q" name="Search Form={location, cuisine, number of tables}_To_search database for matching Restaurants_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_9kP7whgxEfCurM15lvJd2Q" name="Search Form={location, cuisine, number of tables}_To_search database for matching Restaurants_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_B7lvcBgyEfCurM15lvJd2Q" target="_R1_v8BgtEfCurM15lvJd2Q" source="_junW0Bb6EfCepdRd97pNVA">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_B7lvcRgyEfCurM15lvJd2Q" name="search database for matching Restaurants_To_matches found?_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_B7lvchgyEfCurM15lvJd2Q" name="search database for matching Restaurants_To_matches found?_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_FAiuMBgyEfCurM15lvJd2Q" name="[Else]" target="_sya6IBgtEfCurM15lvJd2Q" source="_R1_v8BgtEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_FAiuMRgyEfCurM15lvJd2Q" name="matches found?_To_Message=&quot;no match found for search&quot;_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_FAiuMhgyEfCurM15lvJd2Q" name="matches found?_To_Message=&quot;no match found for search&quot;_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_LAtg4BgyEfCurM15lvJd2Q" name="[Matches Found]" target="_1b4p0Bb6EfCepdRd97pNVA" source="_R1_v8BgtEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_LAtg4RgyEfCurM15lvJd2Q" name="matches found?_To_return list of restaurants_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_LAtg4hgyEfCurM15lvJd2Q" name="matches found?_To_return list of restaurants_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_ZIG5YBgyEfCurM15lvJd2Q" target="_9EwfsBb6EfCepdRd97pNVA" source="_1b4p0Bb6EfCepdRd97pNVA">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_ZIG5YRgyEfCurM15lvJd2Q" name="return list of restaurants_To_list of resturants_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_ZIG5YhgyEfCurM15lvJd2Q" name="return list of restaurants_To_list of resturants_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nBd14BgyEfCurM15lvJd2Q" target="_iDSEoBgyEfCurM15lvJd2Q" source="_sya6IBgtEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_nBd14RgyEfCurM15lvJd2Q" name="Message=&quot;no match found for search&quot;_To_Search Again?_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_nBd14hgyEfCurM15lvJd2Q" name="Message=&quot;no match found for search&quot;_To_Search Again?_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_sijf4BgyEfCurM15lvJd2Q" name="[Else]" target="_qkWGwBgyEfCurM15lvJd2Q" source="_iDSEoBgyEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_sijf4RgyEfCurM15lvJd2Q" name="Search Again?_To_ActivityFinal1_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_sijf4hgyEfCurM15lvJd2Q" name="Search Again?_To_ActivityFinal1_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_vmjcYBgyEfCurM15lvJd2Q" name="[okay to search again]" target="_9gNQoBguEfCurM15lvJd2Q" source="_iDSEoBgyEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_vmjcYRgyEfCurM15lvJd2Q" name="Search Again?_To_Fill Restaurant Search Form_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_vmjcYhgyEfCurM15lvJd2Q" name="Search Again?_To_Fill Restaurant Search Form_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_8UknIBgyEfCurM15lvJd2Q" target="_4c2usBgyEfCurM15lvJd2Q" source="_9EwfsBb6EfCepdRd97pNVA">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_8UknIRgyEfCurM15lvJd2Q" name="list of resturants_To_Select Restaurant_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_8UknIhgyEfCurM15lvJd2Q" name="list of resturants_To_Select Restaurant_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_OGLyIBg0EfCurM15lvJd2Q" source="_4c2usBgyEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_OGO1cBg0EfCurM15lvJd2Q" name="Select Restaurant From List_To_Decision3_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_OGO1cRg0EfCurM15lvJd2Q" name="Select Restaurant From List_To_Decision3_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_W16iYBg0EfCurM15lvJd2Q" name="[Else]" target="_qkWGwBgyEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_W16iYRg0EfCurM15lvJd2Q" name="Decision3_To_ActivityFinal1_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_W16iYhg0EfCurM15lvJd2Q" name="Decision3_To_ActivityFinal1_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_g6U7sBg2EfCurM15lvJd2Q" name="[Proceed With Booking]" target="_dQ598Bg2EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_g6U7sRg2EfCurM15lvJd2Q" name="Decision3_To_Request Restaurant Layout_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_g6WJ0Bg2EfCurM15lvJd2Q" name="Decision3_To_Request Restaurant Layout_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_aWSqIBg6EfCurM15lvJd2Q" target="_VzyIQBg6EfCurM15lvJd2Q" source="_4c2usBgyEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_aWSqIRg6EfCurM15lvJd2Q" name="Select Restaurant From List_To_Request Menu_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_aWSqIhg6EfCurM15lvJd2Q" name="Select Restaurant From List_To_Request Menu_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_oW3B4Bg6EfCurM15lvJd2Q" target="_bK0eYBg6EfCurM15lvJd2Q" source="_VzyIQBg6EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_oW3B4Rg6EfCurM15lvJd2Q" name="Request Menu_To_Menu Request_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_oW3B4hg6EfCurM15lvJd2Q" name="Request Menu_To_Menu Request_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_pGFfYBg6EfCurM15lvJd2Q" target="_gpftkBg6EfCurM15lvJd2Q" source="_bK0eYBg6EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_pGGGcBg6EfCurM15lvJd2Q" name="Menu Request_To_Prepare List of Menu Items_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_pGGGcRg6EfCurM15lvJd2Q" name="Menu Request_To_Prepare List of Menu Items_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_rZByYBg6EfCurM15lvJd2Q" target="_lbxJwBg6EfCurM15lvJd2Q" source="_gpftkBg6EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_rZByYRg6EfCurM15lvJd2Q" name="Prepare List of Menu Items_To_Menu_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_rZByYhg6EfCurM15lvJd2Q" name="Prepare List of Menu Items_To_Menu_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="__qSsIBg6EfCurM15lvJd2Q" target="_5GQ-cBg6EfCurM15lvJd2Q" source="_lbxJwBg6EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="__qSsIRg6EfCurM15lvJd2Q" name="Menu_To_Decision3_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="__qSsIhg6EfCurM15lvJd2Q" name="Menu_To_Decision3_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_AWAioBg7EfCurM15lvJd2Q" name="[Quit]" target="_qkWGwBgyEfCurM15lvJd2Q" source="_5GQ-cBg6EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_AWAioRg7EfCurM15lvJd2Q" name="Decision3_To_ActivityFinal1_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_AWAiohg7EfCurM15lvJd2Q" name="Decision3_To_ActivityFinal1_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_I0aSUBg7EfCurM15lvJd2Q" name="[Continue to Booking]" target="_dQ598Bg2EfCurM15lvJd2Q" source="_5GQ-cBg6EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_I0bgcBg7EfCurM15lvJd2Q" name="Decision3_To_Request Restaurant Layout_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_I0bgcRg7EfCurM15lvJd2Q" name="Decision3_To_Request Restaurant Layout_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Ugv9oBg7EfCurM15lvJd2Q" target="_uU974Bg2EfCurM15lvJd2Q" source="_dQ598Bg2EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_Ugv9oRg7EfCurM15lvJd2Q" name="Request Restaurant Layout_To_Layout Request_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_Ugv9ohg7EfCurM15lvJd2Q" name="Request Restaurant Layout_To_Layout Request_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_VL2JEBg7EfCurM15lvJd2Q" target="_x0Mb0Bg2EfCurM15lvJd2Q" source="_uU974Bg2EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_VL2JERg7EfCurM15lvJd2Q" name="Layout Request_To_Fetch restaurant Layout_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_VL2JEhg7EfCurM15lvJd2Q" name="Layout Request_To_Fetch restaurant Layout_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_u82pABg7EfCurM15lvJd2Q" target="_qa5gwBg7EfCurM15lvJd2Q" source="_x0Mb0Bg2EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_u82pARg7EfCurM15lvJd2Q" name="Fetch restaurant Layout_To_Restaurant Layout_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_u82pAhg7EfCurM15lvJd2Q" name="Fetch restaurant Layout_To_Restaurant Layout_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Z80vUBg8EfCurM15lvJd2Q" target="_OL-XcBg8EfCurM15lvJd2Q" source="_qa5gwBg7EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_Z80vURg8EfCurM15lvJd2Q" name="Restaurant Layout_To_Specify time and  party size _guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_Z80vUhg8EfCurM15lvJd2Q" name="Restaurant Layout_To_Specify time and  party size _weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_sOdToBg8EfCurM15lvJd2Q" target="_mophsBg8EfCurM15lvJd2Q" source="_OL-XcBg8EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_sOdToRg8EfCurM15lvJd2Q" name="Select time and  party size _To_Time and Party Size_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_sOdTohg8EfCurM15lvJd2Q" name="Select time and  party size _To_Time and Party Size_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_6UKDABg8EfCurM15lvJd2Q" target="_w1ZpkBg8EfCurM15lvJd2Q" source="_mophsBg8EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_6UKDARg8EfCurM15lvJd2Q" name="Time and Party Size_To_Check for available tables _guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_6UKDAhg8EfCurM15lvJd2Q" name="Time and Party Size_To_Check for available tables _weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_YnVGkBg9EfCurM15lvJd2Q" target="_M2J-kBg9EfCurM15lvJd2Q" source="_w1ZpkBg8EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_YnVGkRg9EfCurM15lvJd2Q" name="Check for opening hours_To_Decision4_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_YnVGkhg9EfCurM15lvJd2Q" name="Check for opening hours_To_Decision4_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_66gb4Bg9EfCurM15lvJd2Q" name="[outside opening hours]" target="_Rkk1gBg9EfCurM15lvJd2Q" source="_M2J-kBg9EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_66gb4Rg9EfCurM15lvJd2Q" name="Decision4_To_Error message=&quot;time selected outside opening hours&quot;_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_66gb4hg9EfCurM15lvJd2Q" name="Decision4_To_Error message=&quot;time selected outside opening hours&quot;_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_GMjX4Bg-EfCurM15lvJd2Q" target="_DFb18Bg-EfCurM15lvJd2Q" source="_Rkk1gBg9EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_GMkmABg-EfCurM15lvJd2Q" name="Error message=&quot;time selected outside opening hours&quot;_To_Decision5_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_GMkmARg-EfCurM15lvJd2Q" name="Error message=&quot;time selected outside opening hours&quot;_To_Decision5_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_G5y4YBg-EfCurM15lvJd2Q" name="[Quit]" target="_qkWGwBgyEfCurM15lvJd2Q" source="_DFb18Bg-EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_G5y4YRg-EfCurM15lvJd2Q" name="Decision5_To_ActivityFinal1_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_G5y4Yhg-EfCurM15lvJd2Q" name="Decision5_To_ActivityFinal1_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Ml3DUBg-EfCurM15lvJd2Q" name="[change selected time]" target="_OL-XcBg8EfCurM15lvJd2Q" source="_DFb18Bg-EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_Ml3DURg-EfCurM15lvJd2Q" name="Decision5_To_Select time and  party size _guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_Ml3DUhg-EfCurM15lvJd2Q" name="Decision5_To_Select time and  party size _weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_xFx9ABg-EfCurM15lvJd2Q" name="[within opening hours]" target="_tnU5IBg-EfCurM15lvJd2Q" source="_M2J-kBg9EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_xFx9ARg-EfCurM15lvJd2Q" name="Decision4_To_Prepare List of available tables_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_xF7uABg-EfCurM15lvJd2Q" name="Decision4_To_Prepare List of available tables_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_x1-q4Bg-EfCurM15lvJd2Q" target="_3eXhoBg8EfCurM15lvJd2Q" source="_tnU5IBg-EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_x1-q4Rg-EfCurM15lvJd2Q" name="Prepare List of available tables_To_List Of Available Tables_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_x1-q4hg-EfCurM15lvJd2Q" name="Prepare List of available tables_To_List Of Available Tables_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_BWub8Bg_EfCurM15lvJd2Q" target="_8oQhsBg-EfCurM15lvJd2Q" source="_2UxKYBg-EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_BWvqEBg_EfCurM15lvJd2Q" name="Login_To_Login data={userId, Password}_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_BWvqERg_EfCurM15lvJd2Q" name="Login_To_Login data={userId, Password}_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IfU2UBg_EfCurM15lvJd2Q" target="_E_SeEBg_EfCurM15lvJd2Q" source="_8oQhsBg-EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_IfU2URg_EfCurM15lvJd2Q" name="Login data={userId, Password}_To_check Credentials_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_IfU2Uhg_EfCurM15lvJd2Q" name="Login data={userId, Password}_To_check Credentials_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_oTekcBg_EfCurM15lvJd2Q" target="_Kyqx8Bg_EfCurM15lvJd2Q" source="_E_SeEBg_EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_oTekcRg_EfCurM15lvJd2Q" name="check Credentials_To_Decision6_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_oTekchg_EfCurM15lvJd2Q" name="check Credentials_To_Decision6_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_o6ResBg_EfCurM15lvJd2Q" name="[Invalid credentials]" target="_fC-CYBg_EfCurM15lvJd2Q" source="_Kyqx8Bg_EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_o6ResRg_EfCurM15lvJd2Q" name="Decision6_To_Error message=&quot;invalid credentials&quot;_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_o6Reshg_EfCurM15lvJd2Q" name="Decision6_To_Error message=&quot;invalid credentials&quot;_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_uylV4Bg_EfCurM15lvJd2Q" name="[Retry Login]" target="_2UxKYBg-EfCurM15lvJd2Q" source="_q7Zo8Bg_EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_uylV4Rg_EfCurM15lvJd2Q" name="Decision7_To_Login_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_uylV4hg_EfCurM15lvJd2Q" name="Decision7_To_Login_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_w29ocBg_EfCurM15lvJd2Q" target="_q7Zo8Bg_EfCurM15lvJd2Q" source="_fC-CYBg_EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_w29ocRg_EfCurM15lvJd2Q" name="Error message=&quot;invalid credentials&quot;_To_Decision7_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_w29ochg_EfCurM15lvJd2Q" name="Error message=&quot;invalid credentials&quot;_To_Decision7_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_x1_cgBg_EfCurM15lvJd2Q" name="[Quit]" target="_qkWGwBgyEfCurM15lvJd2Q" source="_q7Zo8Bg_EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_x1_cgRg_EfCurM15lvJd2Q" name="Decision7_To_ActivityFinal1_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_x1_cghg_EfCurM15lvJd2Q" name="Decision7_To_ActivityFinal1_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_RnW1ABhDEfCurM15lvJd2Q" target="_A2-BABhDEfCurM15lvJd2Q" source="_3eXhoBg8EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_RnW1ARhDEfCurM15lvJd2Q" name="List Of Available Tables_To_Decision8_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_RnW1AhhDEfCurM15lvJd2Q" name="List Of Available Tables_To_Decision8_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_StA1gBhDEfCurM15lvJd2Q" name="[No tables available]" target="_OL-XcBg8EfCurM15lvJd2Q" source="_A2-BABhDEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_StA1gRhDEfCurM15lvJd2Q" name="Decision8_To_Select time and  party size _guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_StA1ghhDEfCurM15lvJd2Q" name="Decision8_To_Select time and  party size _weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_UopbwBhDEfCurM15lvJd2Q" name="[Else]" target="_ZzBoMBg-EfCurM15lvJd2Q" source="_A2-BABhDEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_UopbwRhDEfCurM15lvJd2Q" name="Decision8_To_Select available table_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_UopbwhhDEfCurM15lvJd2Q" name="Decision8_To_Select available table_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_VXA9oBhDEfCurM15lvJd2Q" target="_cg5m4BhCEfCurM15lvJd2Q" source="_ZzBoMBg-EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_VXA9oRhDEfCurM15lvJd2Q" name="Select available table_To_Table id_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_VXA9ohhDEfCurM15lvJd2Q" name="Select available table_To_Table id_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_z_eUsBhDEfCurM15lvJd2Q" target="_wi6HMBhDEfCurM15lvJd2Q" source="_cg5m4BhCEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_z_eUsRhDEfCurM15lvJd2Q" name="Table id_To_Check if customer is logged in_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_z_eUshhDEfCurM15lvJd2Q" name="Table id_To_Check if customer is logged in_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_HP6DkBhEEfCurM15lvJd2Q" name="[yes]" target="__hyhUBhDEfCurM15lvJd2Q" source="_wi6HMBhDEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_HP6DkRhEEfCurM15lvJd2Q" name="Check if customer was logged in_To_Decision9_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_HP6DkhhEEfCurM15lvJd2Q" name="Check if customer was logged in_To_Decision9_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_MvlYUBhEEfCurM15lvJd2Q" name="[No]" target="_JfHGEBhEEfCurM15lvJd2Q" source="__hyhUBhDEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_MvlYURhEEfCurM15lvJd2Q" name="Decision9_To_Send Login Form_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_MvlYUhhEEfCurM15lvJd2Q" name="Decision9_To_Send Login Form_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_NvnR8BhEEfCurM15lvJd2Q" target="_Ap8cMBhEEfCurM15lvJd2Q" source="_JfHGEBhEEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_NvnR8RhEEfCurM15lvJd2Q" name="Send Login Form_To_Login Form_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_NvnR8hhEEfCurM15lvJd2Q" name="Send Login Form_To_Login Form_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_OonWgBhEEfCurM15lvJd2Q" target="_2UxKYBg-EfCurM15lvJd2Q" source="_Ap8cMBhEEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_OonWgRhEEfCurM15lvJd2Q" name="Login Form_To_Fill login Form_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_OonWghhEEfCurM15lvJd2Q" name="Login Form_To_Fill login Form_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_VI3-gBhEEfCurM15lvJd2Q" name="[Valid credentials]" target="_lyK98BhCEfCurM15lvJd2Q" source="_Kyqx8Bg_EfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_VI7o4BhEEfCurM15lvJd2Q" name="Decision6_To_Prepare Booking Summary _guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_VI7o4RhEEfCurM15lvJd2Q" name="Decision6_To_Prepare Booking Summary _weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_XkLjUBhEEfCurM15lvJd2Q" name="[yes]" target="_lyK98BhCEfCurM15lvJd2Q" source="__hyhUBhDEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_XkLjURhEEfCurM15lvJd2Q" name="Decision9_To_Prepare Booking Summary _guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_XkLjUhhEEfCurM15lvJd2Q" name="Decision9_To_Prepare Booking Summary _weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_wXfr8BhEEfCurM15lvJd2Q" target="_tyQIABhEEfCurM15lvJd2Q" source="_lyK98BhCEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_wXfr8RhEEfCurM15lvJd2Q" name="Prepare Booking Summary _To_Booking Summary_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_wXfr8hhEEfCurM15lvJd2Q" name="Prepare Booking Summary _To_Booking Summary_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_D5wxsBhFEfCurM15lvJd2Q" target="_71vQ4BhEEfCurM15lvJd2Q" source="_tyQIABhEEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_D5wxsRhFEfCurM15lvJd2Q" name="Booking Summary_To_Check to see if changes are needed_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_D5wxshhFEfCurM15lvJd2Q" name="Booking Summary_To_Check to see if changes are needed_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_NAa0MBhFEfCurM15lvJd2Q" target="_EyyEYBhFEfCurM15lvJd2Q" source="_71vQ4BhEEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_NAa0MRhFEfCurM15lvJd2Q" name="Confirm Booking_To_Decision10_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_NAa0MhhFEfCurM15lvJd2Q" name="Confirm Booking_To_Decision10_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Nx57gBhFEfCurM15lvJd2Q" name="[Modification Needed]" target="_OL-XcBg8EfCurM15lvJd2Q" source="_EyyEYBhFEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_Nx57gRhFEfCurM15lvJd2Q" name="Decision10_To_Select time and  party size _guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_Nx57ghhFEfCurM15lvJd2Q" name="Decision10_To_Select time and  party size _weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_XL_3YBhFEfCurM15lvJd2Q" name="[Confirmed Booking]" target="_QbLD0BhFEfCurM15lvJd2Q" source="_EyyEYBhFEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_XL_3YRhFEfCurM15lvJd2Q" name="Decision10_To_Request Booking Confirmation_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_XL_3YhhFEfCurM15lvJd2Q" name="Decision10_To_Request Booking Confirmation_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_qUGwsBhFEfCurM15lvJd2Q" target="_hE7rYBhFEfCurM15lvJd2Q" source="_QbLD0BhFEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_qUGwsRhFEfCurM15lvJd2Q" name="Request Booking Confirmation_To_Booking Confirmation_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_qUGwshhFEfCurM15lvJd2Q" name="Request Booking Confirmation_To_Booking Confirmation_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_aqwAwBhGEfCurM15lvJd2Q" source="_hE7rYBhFEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_aqwAwRhGEfCurM15lvJd2Q" name="Booking Confirmation_To_Fork1_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_aqwAwhhGEfCurM15lvJd2Q" name="Booking Confirmation_To_Fork1_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_bdMxYBhGEfCurM15lvJd2Q" target="_G_kPkBhGEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_bdMxYRhGEfCurM15lvJd2Q" name="Fork1_To_Send Conformation Message_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_bdMxYhhGEfCurM15lvJd2Q" name="Fork1_To_Send Conformation Message_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_dN89UBhGEfCurM15lvJd2Q" target="_Dbj9UBhGEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_dN-LcBhGEfCurM15lvJd2Q" name="Fork1_To_Send Conformation Email_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_dN-LcRhGEfCurM15lvJd2Q" name="Fork1_To_Send Conformation Email_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_kskD8BhGEfCurM15lvJd2Q" target="_iPvcMBhGEfCurM15lvJd2Q" source="_hE7rYBhFEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_kskD8RhGEfCurM15lvJd2Q" name="Booking Confirmation_To_Fork1_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_kskD8hhGEfCurM15lvJd2Q" name="Booking Confirmation_To_Fork1_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_ljIfkBhGEfCurM15lvJd2Q" target="_G_kPkBhGEfCurM15lvJd2Q" source="_iPvcMBhGEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_ljIfkRhGEfCurM15lvJd2Q" name="Fork1_To_Send Conformation Message_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_ljIfkhhGEfCurM15lvJd2Q" name="Fork1_To_Send Conformation Message_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_mWfPIBhGEfCurM15lvJd2Q" target="_Dbj9UBhGEfCurM15lvJd2Q" source="_iPvcMBhGEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_mWfPIRhGEfCurM15lvJd2Q" name="Fork1_To_Send Conformation Email_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_mWfPIhhGEfCurM15lvJd2Q" name="Fork1_To_Send Conformation Email_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_2pZc8BhGEfCurM15lvJd2Q" target="_pIBioBhGEfCurM15lvJd2Q" source="_G_kPkBhGEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_2pZc8RhGEfCurM15lvJd2Q" name="Send Conformation Message_To_Message=&quot;Booking Confirmed&quot;_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_2pZc8hhGEfCurM15lvJd2Q" name="Send Conformation Message_To_Message=&quot;Booking Confirmed&quot;_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_7Pe3QBhGEfCurM15lvJd2Q" target="_4ZI8QBhGEfCurM15lvJd2Q" source="_Dbj9UBhGEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_7Pe3QRhGEfCurM15lvJd2Q" name="Send Conformation Email_To_Confirmation Email_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_7Pe3QhhGEfCurM15lvJd2Q" name="Send Conformation Email_To_Confirmation Email_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_EwdeQBhHEfCurM15lvJd2Q" source="_pIBioBhGEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_EwdeQRhHEfCurM15lvJd2Q" name="Message=&quot;Booking Confirmed&quot;_To_Merge1_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_EwdeQhhHEfCurM15lvJd2Q" name="Message=&quot;Booking Confirmed&quot;_To_Merge1_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_HgmqoBhHEfCurM15lvJd2Q" target="_rK2LcBhFEfCurM15lvJd2Q" source="_pIBioBhGEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_HgmqoRhHEfCurM15lvJd2Q" name="Message=&quot;Booking Confirmed&quot;_To_View Confirmation Message_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_HgmqohhHEfCurM15lvJd2Q" name="Message=&quot;Booking Confirmed&quot;_To_View Confirmation Message_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IGBr4BhHEfCurM15lvJd2Q" target="_weq1gBhFEfCurM15lvJd2Q" source="_4ZI8QBhGEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_IGBr4RhHEfCurM15lvJd2Q" name="Confirmation Email_To_Receive Confirmation Email_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_IGBr4hhHEfCurM15lvJd2Q" name="Confirmation Email_To_Receive Confirmation Email_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_LHIFYBhHEfCurM15lvJd2Q" target="_z-l5ABhFEfCurM15lvJd2Q" source="_rK2LcBhFEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_LHIFYRhHEfCurM15lvJd2Q" name="View Confirmation Message_To_ActivityFinal2_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_LHIFYhhHEfCurM15lvJd2Q" name="View Confirmation Message_To_ActivityFinal2_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Mcc5kBhHEfCurM15lvJd2Q" target="_z-l5ABhFEfCurM15lvJd2Q" source="_weq1gBhFEfCurM15lvJd2Q">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_Mcc5kRhHEfCurM15lvJd2Q" name="Receive Confirmation Email_To_ActivityFinal2_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_Mcc5khhHEfCurM15lvJd2Q" name="Receive Confirmation Email_To_ActivityFinal2_weight"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_mrA4MBhHEfCurM15lvJd2Q" target="_PJ8j8BguEfCurM15lvJd2Q" source="_ql97EBb4EfCepdRd97pNVA">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_mrA4MRhHEfCurM15lvJd2Q" name="Initial1_To_Request restaurant search form_guard" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_mrA4MhhHEfCurM15lvJd2Q" name="Initial1_To_Request restaurant search form_weight"/>
+      </edge>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_w1uNcBbuEfCepdRd97pNVA" name="cloudTables-Customer SubSystem" node="_junW0Bb6EfCepdRd97pNVA _1b4p0Bb6EfCepdRd97pNVA _R1_v8BgtEfCurM15lvJd2Q _l7fCEBguEfCurM15lvJd2Q _x0Mb0Bg2EfCurM15lvJd2Q _gpftkBg6EfCurM15lvJd2Q _w1ZpkBg8EfCurM15lvJd2Q _M2J-kBg9EfCurM15lvJd2Q _tnU5IBg-EfCurM15lvJd2Q _E_SeEBg_EfCurM15lvJd2Q _Kyqx8Bg_EfCurM15lvJd2Q _lyK98BhCEfCurM15lvJd2Q _wi6HMBhDEfCurM15lvJd2Q __hyhUBhDEfCurM15lvJd2Q _JfHGEBhEEfCurM15lvJd2Q _Dbj9UBhGEfCurM15lvJd2Q _G_kPkBhGEfCurM15lvJd2Q _iPvcMBhGEfCurM15lvJd2Q"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_xhZAoBbuEfCepdRd97pNVA" name="Customer" node="_PJ8j8BguEfCurM15lvJd2Q _9gNQoBguEfCurM15lvJd2Q _iDSEoBgyEfCurM15lvJd2Q _4c2usBgyEfCurM15lvJd2Q _dQ598Bg2EfCurM15lvJd2Q _VzyIQBg6EfCurM15lvJd2Q _5GQ-cBg6EfCurM15lvJd2Q _OL-XcBg8EfCurM15lvJd2Q _DFb18Bg-EfCurM15lvJd2Q _ZzBoMBg-EfCurM15lvJd2Q _2UxKYBg-EfCurM15lvJd2Q _q7Zo8Bg_EfCurM15lvJd2Q _A2-BABhDEfCurM15lvJd2Q _71vQ4BhEEfCurM15lvJd2Q _EyyEYBhFEfCurM15lvJd2Q _QbLD0BhFEfCurM15lvJd2Q _rK2LcBhFEfCurM15lvJd2Q _weq1gBhFEfCurM15lvJd2Q"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_ql97EBb4EfCepdRd97pNVA" name="Initial1" outgoing="_cYpO0Bb6EfCepdRd97pNVA _mrA4MBhHEfCurM15lvJd2Q"/>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_fYLiEBb6EfCepdRd97pNVA" name="Search Form={location, cuisine, number of tables}" incoming="_7VQ7sBgxEfCurM15lvJd2Q" outgoing="_9kP7wBgxEfCurM15lvJd2Q"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_junW0Bb6EfCepdRd97pNVA" name="search database for matching Restaurants" incoming="_9kP7wBgxEfCurM15lvJd2Q" outgoing="_B7lvcBgyEfCurM15lvJd2Q" inPartition="_w1uNcBbuEfCepdRd97pNVA">
         <body>// TODO body of OpaqueAction2</body>
       </node>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_1b4p0Bb6EfCepdRd97pNVA" name="Send Booking Request Form" incoming="_62yMQBb6EfCepdRd97pNVA" outgoing="_A_iTMBb7EfCepdRd97pNVA" inPartition="_w1uNcBbuEfCepdRd97pNVA">
+      <node xmi:type="uml:OpaqueAction" xmi:id="_1b4p0Bb6EfCepdRd97pNVA" name="return list of restaurants" incoming="_LAtg4BgyEfCurM15lvJd2Q" outgoing="_ZIG5YBgyEfCurM15lvJd2Q" inPartition="_w1uNcBbuEfCepdRd97pNVA">
         <body>// TODO body of OpaqueAction3</body>
       </node>
-      <node xmi:type="uml:DataStoreNode" xmi:id="_9EwfsBb6EfCepdRd97pNVA" name="Booking Request Form" incoming="_A_iTMBb7EfCepdRd97pNVA"/>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_9EwfsBb6EfCepdRd97pNVA" name="list of resturants" incoming="_ZIG5YBgyEfCurM15lvJd2Q" outgoing="_8UknIBgyEfCurM15lvJd2Q"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_R1_v8BgtEfCurM15lvJd2Q" name="matches found?" incoming="_B7lvcBgyEfCurM15lvJd2Q" outgoing="_FAiuMBgyEfCurM15lvJd2Q _LAtg4BgyEfCurM15lvJd2Q" inPartition="_w1uNcBbuEfCepdRd97pNVA"/>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_sya6IBgtEfCurM15lvJd2Q" name="Message=&quot;no match found for search&quot;" incoming="_FAiuMBgyEfCurM15lvJd2Q" outgoing="_nBd14BgyEfCurM15lvJd2Q"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_PJ8j8BguEfCurM15lvJd2Q" name="Request restaurant search form" incoming="_TWPlQBguEfCurM15lvJd2Q _mrA4MBhHEfCurM15lvJd2Q" outgoing="_tcrioBguEfCurM15lvJd2Q" inPartition="_xhZAoBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction4</body>
+      </node>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_YgIQMBguEfCurM15lvJd2Q" name="Request Restaurant Search Form" incoming="_tcrioBguEfCurM15lvJd2Q" outgoing="_uUKkQBguEfCurM15lvJd2Q"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_l7fCEBguEfCurM15lvJd2Q" name="Send Restaurant Search Form" incoming="_uUKkQBguEfCurM15lvJd2Q" outgoing="_8ypnEBguEfCurM15lvJd2Q" inPartition="_w1uNcBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction4</body>
+      </node>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_4I8RABguEfCurM15lvJd2Q" name="Restaurant search Form" incoming="_8ypnEBguEfCurM15lvJd2Q" outgoing="_CEG5oBgvEfCurM15lvJd2Q"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_9gNQoBguEfCurM15lvJd2Q" name="Fill Restaurant Search Form" incoming="_CEG5oBgvEfCurM15lvJd2Q _vmjcYBgyEfCurM15lvJd2Q" outgoing="_7VQ7sBgxEfCurM15lvJd2Q" inPartition="_xhZAoBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction5</body>
+      </node>
+      <node xmi:type="uml:DecisionNode" xmi:id="_iDSEoBgyEfCurM15lvJd2Q" name="Search Again?" incoming="_nBd14BgyEfCurM15lvJd2Q" outgoing="_sijf4BgyEfCurM15lvJd2Q _vmjcYBgyEfCurM15lvJd2Q" inPartition="_xhZAoBbuEfCepdRd97pNVA"/>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_qkWGwBgyEfCurM15lvJd2Q" name="ActivityFinal1" incoming="_sijf4BgyEfCurM15lvJd2Q _W16iYBg0EfCurM15lvJd2Q _AWAioBg7EfCurM15lvJd2Q _G5y4YBg-EfCurM15lvJd2Q _x1_cgBg_EfCurM15lvJd2Q"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_4c2usBgyEfCurM15lvJd2Q" name="Select Restaurant From List" incoming="_8UknIBgyEfCurM15lvJd2Q" outgoing="_OGLyIBg0EfCurM15lvJd2Q _aWSqIBg6EfCurM15lvJd2Q" inPartition="_xhZAoBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction6</body>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_dQ598Bg2EfCurM15lvJd2Q" name="Request Restaurant Layout" incoming="_g6U7sBg2EfCurM15lvJd2Q _I0aSUBg7EfCurM15lvJd2Q" outgoing="_Ugv9oBg7EfCurM15lvJd2Q" inPartition="_xhZAoBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction7</body>
+      </node>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_uU974Bg2EfCurM15lvJd2Q" name="Layout Request" incoming="_Ugv9oBg7EfCurM15lvJd2Q" outgoing="_VL2JEBg7EfCurM15lvJd2Q"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_x0Mb0Bg2EfCurM15lvJd2Q" name="Fetch restaurant Layout" incoming="_VL2JEBg7EfCurM15lvJd2Q" outgoing="_u82pABg7EfCurM15lvJd2Q" inPartition="_w1uNcBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction8</body>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_VzyIQBg6EfCurM15lvJd2Q" name="Request Menu" incoming="_aWSqIBg6EfCurM15lvJd2Q" outgoing="_oW3B4Bg6EfCurM15lvJd2Q" inPartition="_xhZAoBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction9</body>
+      </node>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_bK0eYBg6EfCurM15lvJd2Q" name="Request data={restaurantId, menu request}" incoming="_oW3B4Bg6EfCurM15lvJd2Q" outgoing="_pGFfYBg6EfCurM15lvJd2Q"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_gpftkBg6EfCurM15lvJd2Q" name="Prepare List of Menu Items" incoming="_pGFfYBg6EfCurM15lvJd2Q" outgoing="_rZByYBg6EfCurM15lvJd2Q" inPartition="_w1uNcBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction10</body>
+      </node>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_lbxJwBg6EfCurM15lvJd2Q" name="Menu" incoming="_rZByYBg6EfCurM15lvJd2Q" outgoing="__qSsIBg6EfCurM15lvJd2Q"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_5GQ-cBg6EfCurM15lvJd2Q" name="Decision3" incoming="__qSsIBg6EfCurM15lvJd2Q" outgoing="_AWAioBg7EfCurM15lvJd2Q _I0aSUBg7EfCurM15lvJd2Q" inPartition="_xhZAoBbuEfCepdRd97pNVA"/>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_qa5gwBg7EfCurM15lvJd2Q" name="Restaurant Layout" incoming="_u82pABg7EfCurM15lvJd2Q" outgoing="_Z80vUBg8EfCurM15lvJd2Q"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_OL-XcBg8EfCurM15lvJd2Q" name="Select time and  party size " incoming="_Z80vUBg8EfCurM15lvJd2Q _Ml3DUBg-EfCurM15lvJd2Q _StA1gBhDEfCurM15lvJd2Q _Nx57gBhFEfCurM15lvJd2Q" outgoing="_sOdToBg8EfCurM15lvJd2Q" inPartition="_xhZAoBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction11</body>
+      </node>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_mophsBg8EfCurM15lvJd2Q" name="data={Time,Party Size}" incoming="_sOdToBg8EfCurM15lvJd2Q" outgoing="_6UKDABg8EfCurM15lvJd2Q"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_w1ZpkBg8EfCurM15lvJd2Q" name="Check for opening hours" incoming="_6UKDABg8EfCurM15lvJd2Q" outgoing="_YnVGkBg9EfCurM15lvJd2Q" inPartition="_w1uNcBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction12</body>
+      </node>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_3eXhoBg8EfCurM15lvJd2Q" name="List Of Available Tables" incoming="_x1-q4Bg-EfCurM15lvJd2Q" outgoing="_RnW1ABhDEfCurM15lvJd2Q"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_M2J-kBg9EfCurM15lvJd2Q" name="Decision4" incoming="_YnVGkBg9EfCurM15lvJd2Q" outgoing="_66gb4Bg9EfCurM15lvJd2Q _xFx9ABg-EfCurM15lvJd2Q" inPartition="_w1uNcBbuEfCepdRd97pNVA"/>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_Rkk1gBg9EfCurM15lvJd2Q" name="Error message=&quot;time selected outside opening hours&quot;" incoming="_66gb4Bg9EfCurM15lvJd2Q" outgoing="_GMjX4Bg-EfCurM15lvJd2Q"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_DFb18Bg-EfCurM15lvJd2Q" name="Decision5" incoming="_GMjX4Bg-EfCurM15lvJd2Q" outgoing="_G5y4YBg-EfCurM15lvJd2Q _Ml3DUBg-EfCurM15lvJd2Q" inPartition="_xhZAoBbuEfCepdRd97pNVA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_ZzBoMBg-EfCurM15lvJd2Q" name="Select available table" incoming="_UopbwBhDEfCurM15lvJd2Q" outgoing="_VXA9oBhDEfCurM15lvJd2Q" inPartition="_xhZAoBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction13</body>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_tnU5IBg-EfCurM15lvJd2Q" name="Prepare List of available tables" incoming="_xFx9ABg-EfCurM15lvJd2Q" outgoing="_x1-q4Bg-EfCurM15lvJd2Q" inPartition="_w1uNcBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction14</body>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_2UxKYBg-EfCurM15lvJd2Q" name="Fill login Form" incoming="_uylV4Bg_EfCurM15lvJd2Q _OonWgBhEEfCurM15lvJd2Q" outgoing="_BWub8Bg_EfCurM15lvJd2Q" inPartition="_xhZAoBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction15</body>
+      </node>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_8oQhsBg-EfCurM15lvJd2Q" name="Login data={userId, Password}" incoming="_BWub8Bg_EfCurM15lvJd2Q" outgoing="_IfU2UBg_EfCurM15lvJd2Q"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_E_SeEBg_EfCurM15lvJd2Q" name="check Credentials" incoming="_IfU2UBg_EfCurM15lvJd2Q" outgoing="_oTekcBg_EfCurM15lvJd2Q" inPartition="_w1uNcBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction16</body>
+      </node>
+      <node xmi:type="uml:DecisionNode" xmi:id="_Kyqx8Bg_EfCurM15lvJd2Q" name="Decision6" incoming="_oTekcBg_EfCurM15lvJd2Q" outgoing="_o6ResBg_EfCurM15lvJd2Q _VI3-gBhEEfCurM15lvJd2Q" inPartition="_w1uNcBbuEfCepdRd97pNVA"/>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_fC-CYBg_EfCurM15lvJd2Q" name="Error message=&quot;invalid credentials&quot;" incoming="_o6ResBg_EfCurM15lvJd2Q" outgoing="_w29ocBg_EfCurM15lvJd2Q"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_q7Zo8Bg_EfCurM15lvJd2Q" name="Decision7" incoming="_w29ocBg_EfCurM15lvJd2Q" outgoing="_uylV4Bg_EfCurM15lvJd2Q _x1_cgBg_EfCurM15lvJd2Q" inPartition="_xhZAoBbuEfCepdRd97pNVA"/>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_cg5m4BhCEfCurM15lvJd2Q" name="Table id" incoming="_VXA9oBhDEfCurM15lvJd2Q" outgoing="_z_eUsBhDEfCurM15lvJd2Q"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_lyK98BhCEfCurM15lvJd2Q" name="Prepare Booking Summary " incoming="_VI3-gBhEEfCurM15lvJd2Q _XkLjUBhEEfCurM15lvJd2Q" outgoing="_wXfr8BhEEfCurM15lvJd2Q" inPartition="_w1uNcBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction17</body>
+      </node>
+      <node xmi:type="uml:DecisionNode" xmi:id="_A2-BABhDEfCurM15lvJd2Q" name="Decision8" incoming="_RnW1ABhDEfCurM15lvJd2Q" outgoing="_StA1gBhDEfCurM15lvJd2Q _UopbwBhDEfCurM15lvJd2Q" inPartition="_xhZAoBbuEfCepdRd97pNVA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_wi6HMBhDEfCurM15lvJd2Q" name="Check if customer was logged in" incoming="_z_eUsBhDEfCurM15lvJd2Q" outgoing="_HP6DkBhEEfCurM15lvJd2Q" inPartition="_w1uNcBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction18</body>
+      </node>
+      <node xmi:type="uml:DecisionNode" xmi:id="__hyhUBhDEfCurM15lvJd2Q" name="Decision9" incoming="_HP6DkBhEEfCurM15lvJd2Q" outgoing="_MvlYUBhEEfCurM15lvJd2Q _XkLjUBhEEfCurM15lvJd2Q" inPartition="_w1uNcBbuEfCepdRd97pNVA"/>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_Ap8cMBhEEfCurM15lvJd2Q" name="Login Form" incoming="_NvnR8BhEEfCurM15lvJd2Q" outgoing="_OonWgBhEEfCurM15lvJd2Q"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_JfHGEBhEEfCurM15lvJd2Q" name="Send Login Form" incoming="_MvlYUBhEEfCurM15lvJd2Q" outgoing="_NvnR8BhEEfCurM15lvJd2Q" inPartition="_w1uNcBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction19</body>
+      </node>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_tyQIABhEEfCurM15lvJd2Q" name="Booking Summary" incoming="_wXfr8BhEEfCurM15lvJd2Q" outgoing="_D5wxsBhFEfCurM15lvJd2Q"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_71vQ4BhEEfCurM15lvJd2Q" name="Confirm Booking" incoming="_D5wxsBhFEfCurM15lvJd2Q" outgoing="_NAa0MBhFEfCurM15lvJd2Q" inPartition="_xhZAoBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction20</body>
+      </node>
+      <node xmi:type="uml:DecisionNode" xmi:id="_EyyEYBhFEfCurM15lvJd2Q" name="Decision10" incoming="_NAa0MBhFEfCurM15lvJd2Q" outgoing="_Nx57gBhFEfCurM15lvJd2Q _XL_3YBhFEfCurM15lvJd2Q" inPartition="_xhZAoBbuEfCepdRd97pNVA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_QbLD0BhFEfCurM15lvJd2Q" name="Request Booking Confirmation" incoming="_XL_3YBhFEfCurM15lvJd2Q" outgoing="_qUGwsBhFEfCurM15lvJd2Q" inPartition="_xhZAoBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction21</body>
+      </node>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_hE7rYBhFEfCurM15lvJd2Q" name="Booking Confirmation" incoming="_qUGwsBhFEfCurM15lvJd2Q" outgoing="_aqwAwBhGEfCurM15lvJd2Q _kskD8BhGEfCurM15lvJd2Q"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_rK2LcBhFEfCurM15lvJd2Q" name="View Confirmation Message" incoming="_HgmqoBhHEfCurM15lvJd2Q" outgoing="_LHIFYBhHEfCurM15lvJd2Q" inPartition="_xhZAoBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction22</body>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_weq1gBhFEfCurM15lvJd2Q" name="Receive Confirmation Email" incoming="_IGBr4BhHEfCurM15lvJd2Q" outgoing="_Mcc5kBhHEfCurM15lvJd2Q" inPartition="_xhZAoBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction23</body>
+      </node>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_z-l5ABhFEfCurM15lvJd2Q" name="ActivityFinal2" incoming="_LHIFYBhHEfCurM15lvJd2Q _Mcc5kBhHEfCurM15lvJd2Q"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_Dbj9UBhGEfCurM15lvJd2Q" name="Send Conformation Email" incoming="_dN89UBhGEfCurM15lvJd2Q _mWfPIBhGEfCurM15lvJd2Q" outgoing="_7Pe3QBhGEfCurM15lvJd2Q" inPartition="_w1uNcBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction24</body>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_G_kPkBhGEfCurM15lvJd2Q" name="Send Conformation Message" incoming="_bdMxYBhGEfCurM15lvJd2Q _ljIfkBhGEfCurM15lvJd2Q" outgoing="_2pZc8BhGEfCurM15lvJd2Q" inPartition="_w1uNcBbuEfCepdRd97pNVA">
+        <body>// TODO body of OpaqueAction25</body>
+      </node>
+      <node xmi:type="uml:ForkNode" xmi:id="_iPvcMBhGEfCurM15lvJd2Q" name="Fork1" incoming="_kskD8BhGEfCurM15lvJd2Q" outgoing="_ljIfkBhGEfCurM15lvJd2Q _mWfPIBhGEfCurM15lvJd2Q" inPartition="_w1uNcBbuEfCepdRd97pNVA"/>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_pIBioBhGEfCurM15lvJd2Q" name="Message=&quot;Booking Confirmed&quot;" incoming="_2pZc8BhGEfCurM15lvJd2Q" outgoing="_EwdeQBhHEfCurM15lvJd2Q _HgmqoBhHEfCurM15lvJd2Q"/>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_4ZI8QBhGEfCurM15lvJd2Q" name="Confirmation Email" incoming="_7Pe3QBhGEfCurM15lvJd2Q" outgoing="_IGBr4BhHEfCurM15lvJd2Q"/>
     </packagedElement>
     <profileApplication xmi:id="_stabkLYHEe-5Rdd7_WK1gw">
       <eAnnotations xmi:id="_stabkbYHEe-5Rdd7_WK1gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
